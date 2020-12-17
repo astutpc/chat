@@ -1,0 +1,100 @@
+.content-page {
+    background-color: #fafafa;
+}
+.dashboard-main {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.dashboard-card p {
+    font-size: 23px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+}
+.dashboard-sm-font .dashboard-card p {
+    font-size: 21px;
+}
+.dashboard-main .row > .col-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.dashboard-main .dashboard-card{
+    border-radius: 0;
+    padding: 1.25rem;
+    margin-bottom: 30px;
+    display: block;
+}
+.dashboard-main .row .col-12:first-child .dashboard-card {
+    background-image: linear-gradient(to right bottom, #e0c3fc 10%, #5aa8f5);
+}
+.dashboard-main .row .col-12:nth-child(2) .dashboard-card {
+    background-image: linear-gradient(to right bottom, #0e8dcf, #ad9bc5 80%);
+}
+.dashboard-main .row .col-12:nth-child(3) .dashboard-card {
+    background-image: linear-gradient(to right bottom, #cd9cf2 25%, #a548fb);
+}
+.dashboard-main .row .col-12:nth-child(4) .dashboard-card {
+    background-image: linear-gradient(to right bottom, #3d90dd 20%, #5b5ca3);
+
+}
+.dashboard-main .row .col-12:nth-child(5) .dashboard-card {
+    background-image: linear-gradient(to right bottom, #00f2fe 10%, #4facfe);
+}
+.dashboard-main .row .col-12:nth-child(6) .dashboard-card {
+    background-image: linear-gradient(to right bottom, #65c2c5 10%, #057499);
+}
+.dashboard-main .row .col-12:nth-child(7) .dashboard-card {
+    background-image: linear-gradient(to right bottom, #60ccd0 10%, #882677);
+}
+.dashboard-main .row .col-12:nth-child(8) .dashboard-card {
+    background-image: linear-gradient(to right bottom, #7166d2 10%, #769df5);
+}
+.dashboard-main .row .col-12:nth-child(9) .dashboard-card {
+    background-image: linear-gradient(to right bottom, #66d282 10%, #34549c);
+}
+.dashboard-main .dashboard-card .avatar-lg img {
+    max-width: 55px;
+}
+.dashboard-main.admin-dashboard .dashboard-card {
+    padding: 1rem .5rem;
+}
+.dashboard-main.admin-dashboard .dashboard-card p {
+    font-size: 17px;
+}
+.dashboard-main.admin-dashboard .dashboard-card p .ml-2 {
+    margin-left: 4px !important;
+}
+@media screen and (min-width: 1200px){
+.dashboard-main .container-fluid {
+    max-width: 1320px !important;
+    padding: 0 60px;
+}
+}
+@media screen and (max-width: 1200px){
+body[data-sidebar-size=condensed]:not([data-layout=compact]){
+        min-height: auto;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1100px){
+.admin-dashboard .dashboard-card p {
+    font-size: 20px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 909px){
+.dashboard-card p {
+    font-size: 19px;
+}
+}
+@media screen and (max-width: 991px){
+.dashboard-main {
+    margin: 40px 0 0px;
+}
+}
+@media screen and (max-width: 375px){
+.admin-dashboard .dashboard-card p {
+    font-size: 19px;
+}
+}
+/*Dashboard1 Inner End*/
+

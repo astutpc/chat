@@ -1,0 +1,228 @@
+/*header CSS Start*/
+.header-section .container-fluid {
+    padding-left: 60px;
+    padding-right: 40px;
+    margin: 0 auto !important;
+    max-width: 1360px;
+    width: 100%;
+}
+.header-section.outer-header .container-fluid {
+    padding-right: 60px;
+    max-width: 1320px;
+}
+.header-section.outer-header .navbar-nav li.nav-item:last-child .nav-item {
+    margin-right: 0;
+}
+.header-section .container-fluid .row {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.header-section .bg-light {
+    background-color: #fff !important;
+    padding: .3rem 1.5rem;
+}
+.header-section .logo {
+    max-width: 165px;
+}
+.header-section .navbar-nav a.nav-item {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    padding: .3rem .5rem;
+}
+a.nav-item.nav-link.btn-login {
+    border: 2px solid #5721fa;
+    color: #5721fa;
+    border-radius: .3rem;
+    min-width: 110px;
+    text-align: center;
+}
+a.nav-item.nav-link.btn-login.active,
+a.nav-item.nav-link.btn-login:hover,
+a.nav-item.nav-link.btn-login:active,
+a.nav-item.nav-link.btn-login:focus{
+    color: #fff;
+    background-color: #5721fa;
+    box-shadow: unset;
+    outline: 0 none;
+}
+.header-section .navbar-nav li.nav-item {
+    margin-left: .5rem;
+}
+/*.header-section .navbar-nav li.nav-item:last-child {
+    margin-left: 1.5rem;
+}*/
+a.nav-item.nav-link.btn-login i {
+    margin-right: .5rem;
+}
+.header-section.outer-header .nav-item.btn-login.active:hover {
+    color: #5721fa;
+    background-color: #fff;
+}
+/*header CSS End*/
+/*Footer CSS Start*/
+.footer-top {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #cccc;
+    margin-bottom: 1rem;
+}
+.footer-top .row {
+    justify-content: center;
+    max-width: 710px;
+    margin: 0 auto;
+}
+.footer-top .row .col-md-4 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.footer-top p {
+    color: #fff;
+    margin: 0;
+    font-size: 16px;
+}
+.footer .footer-links a {
+    margin-left: 10px;
+    color: #fff;
+}
+.front-end-footer .col-md-6, .front-end-footer .col-md-6 a {
+    font-size: 16px;
+}
+.footer .footer-links a:hover {
+    color: #fff;
+    opacity: 0.9;
+}
+.footer .footer-links a::before {
+    content: "|";
+    color: #fff;
+    position: absolute;
+    right: 0;
+}
+.footer .footer-links a:last-child::before {
+    display: none;
+}
+.footer .footer-links a{
+    position: relative;
+    padding-right: 16px;
+}
+footer.footer.front-end-footer {
+    position: relative;
+    left: unset !important;
+    color: #fff;
+    background-color: #2f2e2e;
+}
+.front-end-footer .container-fluid {
+    max-width: 1320px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.header-section .lines {
+    width: 25px;
+    display: block;
+    position: relative;
+    height: 16px;
+    transition: all .5s ease;
+}
+.navbar-toggler span {
+    height: 2px;
+    width: 100%;
+    background-color: #6c757d;
+    display: block;
+    margin-bottom: 5px;
+    transition: transform .5s ease;
+}
+.navbar-toggler[aria-expanded="true"] span {
+    position: absolute;
+}
+.navbar-toggler[aria-expanded="true"] span:first-child {
+    top: 7px;
+    transform: rotate(45deg);
+}
+.navbar-toggler[aria-expanded="true"] span:last-child {
+    width: 100%;
+    top: 7px;
+    transform: rotate(-45deg);
+}
+.navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+    visibility: hidden;
+}
+.footer-top a img.logo {
+    max-width: 160px;
+}
+.auth-fluid-pages .content.erro-page {
+    margin-top: 75px;
+    min-height: calc(100vh - 221px);
+}
+/*Footer CSS End*/
+@media screen and (min-width: 1440px){
+a.nav-item.nav-link.btn-login {
+    border: 3px solid #5721fa;
+}
+}
+@media screen and (min-width: 1199px){
+/*.header-section.outer-header .navbar-nav a.nav-item {
+    margin: 0 8px;
+}*/
+}
+@media screen and (min-width: 1250px){
+/*.header-section.outer-header .navbar-nav a.nav-item {
+    margin: 0 11px;
+}*/
+.header-section.outer-header .navbar-nav li.nav-item:nth-last-child(2) .nav-item {
+    /*margin-left: 20px;*/
+    margin-right: 14px;
+}
+}
+@media screen and (max-width: 1199px){
+.header-section .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.front-end-footer .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header-section .navbar-collapse {
+    margin-right: -32px;
+}
+.header-section a.navbar-brand {
+    margin-left: -12px;
+}
+body[data-sidebar-size=condensed]:not([data-layout=compact]) {
+    min-height: auto;
+}
+}
+@media screen and (max-width: 991px){
+.header-section button.navbar-toggler {
+    margin-left: auto;
+    margin-right: -32px;
+    padding: 0;
+    border: medium none;
+}
+.header-section .navbar-nav li.nav-item:last-child {
+    margin-left: .5rem;
+}
+a.nav-item.nav-link.btn-login {
+    max-width: 110px;
+    margin-bottom: 10px;
+}
+.header-section .navbar-nav a.nav-item{
+    display: inline-block;
+}
+}
+@media screen and (max-width: 767px){
+.footer-top .row .col-md-4 img.logo {
+    margin: 16px 0;
+}
+.footer-links {
+    margin-top: 12px;
+}
+footer.footer.front-end-footer{
+    padding-left: 0;
+    padding-right: 0;
+}
+}

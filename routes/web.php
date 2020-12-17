@@ -13,10 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/t', function () {
-    event(new \App\Events\SendMessage());
-    //dd('Event Run Successfully.');
-});
+
+Route::get('/chat', 'ChatsController@index')->name('chat');     
+  // Route::post('/chat/userlist','ChatsController@userList')->name('chat.userlist');
+  // Route::get('/broadcasting/auth', 'ChatsController@auth'); 
+  Route::group(['middleware' => 'auth'],function () {
+        Route::get('/chat/messages', 'ChatsController@fetchMessages')->name('chat.fetchMessages');
+        Route::get('/chat/last/messages', 'ChatsController@appendLastMessage')->name('chat.appendLastMessage');
+        Route::post('/chat/send/messages', 'ChatsController@sendMessage')->name('chat.sendMessage');
+        Route::post('/chat/send/action', 'ChatsController@actionMessage')->name('chat.message.action');
+        Route::post('/chat/user/list', 'ChatsController@userChatList')->name('user.chat.list');
+  });

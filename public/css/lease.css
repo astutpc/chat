@@ -1,0 +1,663 @@
+/*Lease pages CSS Start*/
+.btn{
+    font-family: 'Muli', sans-serif;
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #000;
+    font-family: 'Muli', sans-serif;
+}
+p{
+    color: #666;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+}
+p.lead{
+    color: #fff;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.tenant-section .page-title-box .page-title {
+    font-size: 20px;
+}
+.tenant-section .page-title-box p {
+    font-size: 16px;
+}
+.view-content p.form-inner-title {
+    padding-bottom: .53rem;
+}
+.no-margin{
+    margin-left: 0;
+    margin-right: 0;
+}
+.tenant-section .outer-tenant {
+    margin-top: 20px;
+}
+.back-btn {
+    color: #000;
+    border: medium none;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 0;
+}
+.back-btn i.mdi-keyboard-backspace {
+    margin-right: 6px;
+}
+.page-title-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tenant-account h4.page-title {
+    margin: 0;
+}
+.page-title-box .tenant-account {
+    display: flex;
+    align-items: center;
+}
+.tenant-account .image-circle {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    margin-bottom: 0;
+}
+.tenant-account .image-circle.no-image {
+    color: #fff;
+    background-image: linear-gradient(to right, #843fce 30%, #346dd1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.content-page .tenant-section .page-title-box {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+button.btn-blue.lease-btn {
+    border: medium none;
+    font-size: 24px;
+}
+button.btn-blue.lease-btn:hover,
+button.btn-blue.lease-btn:active,
+button.btn-blue.lease-btn:focus{
+    border: medium none;
+    outline: 0 none !important;
+    box-shadow: unset !important;
+}
+.title-box-left p a + a {
+    margin-left: 20px;
+}
+.title-box-left p a i {
+    color: #000;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.common-lease {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.common-lease {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+.title-box-left p.upcoming-lease,
+.title-box-left p.expired-lease,
+.title-box-left p.current-lease {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.title-box-left p.upcoming-lease .badge{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: transparent !important;
+    padding: 0;
+
+}
+.upcoming-lease {
+    color: #23ccff;
+}
+.current-lease {
+    color: #346dd1;    
+}
+.expired-lease{
+    color: #f86262;
+}
+.manage-btn {
+    font-size: 20px;
+    padding: .25rem 1.25rem;
+    border: 2px solid #346dd1;
+    color: #346dd1;
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all .1s ease-in-out;
+    font-weight: 600;
+}
+.manage-btn:hover,.manage-btn:active,.manage-btn:focus {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #346dd1;
+    outline: 0 none !important;
+    box-shadow: unset !important;
+}
+.lease-left p {
+    font-size: 16px;
+}
+.lease-left p.tenant-name {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.lease-left p:last-child {
+    margin-bottom: 0;
+}
+.lease-right p strong {
+    margin-right: 6px;
+}
+.tenant-section p.form-inner-title i.mdi.mdi-pencil {
+    color: #336ed1;
+    cursor: pointer;
+}
+.emergencey-contact .title-detail .btn {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #336ed1;
+    border-radius: 0;
+}
+.emergencey-contact .btn.btn-primary.save-btn{
+    background-color: #336ed1;
+}
+.emergencey-contact .title-detail .btn:hover{
+    background-color: #336ed1;
+    color: #fff;
+    opacity: 0.9;
+}
+.emergencey-contact {
+    margin-top: 30px;
+}
+.emergencey-contact .title-detail span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+.form-group .form-control.is-invalid{
+    border-color: #f86262 !important;
+}
+.form-group .is-invalid  {
+    color: #f86262 !important;
+}
+.form-group  label .required{
+    color: #f86262 !important;
+}
+button.contact-btn {
+    border: medium none;
+    background-color: transparent;
+    color: #336ed1;
+    font-size: 20px;
+    padding: 0;
+    font-weight: 600;
+}
+button.contact-btn:hover {
+    opacity: 0.9;
+}
+.common-lease.no-lease{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-color: #eee;
+}
+.common-lease.no-lease button.add-lease {
+    background-color: transparent;
+    border: 2px solid #336ed1;
+    font-size: 20px;
+    padding: .5rem 1.5rem;
+    color: #336ed1;
+    font-weight: 600;
+}
+.common-lease.no-lease button.add-lease:hover,
+.common-lease.no-lease button.add-lease:active,
+.common-lease.no-lease button.add-lease:focus{
+    outline: 0 none !important;
+    box-shadow: unset !important;
+    color: #fff;
+    background-color: #336ed1;
+
+}
+.tenant-section .subsection + .subsection {
+    margin-top: 30px;
+}
+.emergencey-contact .row {
+    margin-right: -12px !important;
+    margin-left: -12px !important;
+}
+.title-box-left p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.tenant-view-table {
+    /*margin-top: 30px;*/
+}
+.title-box-right p {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.title-box-right .total-amount{
+    font-weight: 600;
+}
+.title-box-right p strong {
+    font-size: 22px;
+    margin-right: 5px;
+    color: #000;
+}
+.title-box-right p small {
+    font-size: 18px;
+}
+.title-box-right p + p {
+    margin-top: 5px;
+}
+.lease-each {
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+.lease-each .tenant-account {
+    display: flex;
+    align-items: center;
+}
+.lease-each .tenant-account h4.page-title {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.account-name {
+    margin-left: 15px;
+}
+.all-tenants {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.all-tenants {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.single-tenant {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 49%;
+}
+.account-name p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.view-tenant {
+    padding: .5rem .75rem;
+    text-align: center;
+}
+.view-tenant a {
+    color: #346dd1;
+    font-size: 18px;
+    font-weight: 600;
+}
+.show-lease {
+    margin-top: 15px;
+}
+.show-lease .all-lease-btn {
+    color: #346dd1;
+    font-size: 20px;
+    font-weight: 600;
+    border: medium none;
+    padding: 0;
+    background-color: transparent;
+}
+.show-lease .all-lease-btn:focus{
+    outline: 0 none !important;
+    box-shadow: unset !important;
+}
+.show-lease .all-lease-btn i{
+    margin-right: 5px;
+}
+.doc-group .form-group .image-guide {
+    height: 18px;
+    line-height: 18px;
+}
+.doc-group label.col-form-label,.doc-group p {
+    font-size: 16px;
+}
+.form-group.doc-group{
+    padding: 0;
+}
+.doc-group button.image-guide.btn.btn-light, 
+.doc-group button.image-guide.btn.btn-light:hover, 
+.doc-group button.image-guide.btn.btn-light:active, 
+.doc-group button.image-guide.btn.btn-light:focus {
+    background-color: transparent;
+    border: medium none;
+    padding: 0;
+    box-shadow: unset !important;
+    outline: 0 none !important;
+}
+.doc-group .ff_fileupload_wrap .ff_fileupload_dropzone {
+    height: 130px;
+    background-color: #dee3eb;
+    border: 2px solid #dee3eb;
+    background-image: unset;
+    border-radius: 0;
+}
+.doc-group .ff_fileupload_wrap .ff_fileupload_dropzone_wrap::after {
+    position: absolute;
+    content: "Drag and Drop to Upload";
+    color: #000;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+}
+.doc-group .ff_fileupload_wrap .ff_fileupload_dropzone::after {
+    position: absolute;
+    content: "Select Document";
+    background-color: #3283f6;
+    color: #fff;
+    padding: .5rem 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+.file-uploads-custom {
+    width: 100%;    
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ul.each-upload {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+ul.each-upload li:nth-child(2) a {
+    max-width: 100%;
+    height: 18px;
+    overflow: hidden !important;
+    display: inline-block;
+    position: relative;
+}
+ul.each-upload li .fa-file-alt {
+    font-size: 32px;
+    margin-right: 10px;
+}
+ul.each-upload li:nth-child(2) {
+    max-width: calc(100% - 85px);
+    width: 100%;
+    text-align: left;
+}
+ul.each-upload li .fa-trash-alt {
+    color: #f86262;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.new-tenant .single-tenant {
+    max-width: 100%;
+    text-align: center;
+}
+.new-tenant .single-tenant i.mdi.mdi-account-supervisor-outline {
+    font-size: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-tenant .single-tenant h3 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.new-tenant .single-tenant p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.new-tenant .single-tenant a {
+    background-color: #346dd1;
+    color: #fff;
+    font-size: 20px;
+    padding: .25rem 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    transition: all .3s ease-in-out;
+}
+.new-tenant .single-tenant a:hover {
+    background-color: #843fce;
+}
+.tenant-section .tab-content {
+    padding: 0;
+}
+.application-view-box .tab-pane .subsection:first-of-type {
+    margin-top: 0px;
+}
+.doc-section {
+    margin-top: 20px;
+}
+.doc-section .row{
+    justify-content: space-between;
+}
+.doc-section .form-group.doc-group {
+    padding: 1rem;
+    max-width: 49%;
+    width: 100%;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.15);
+    text-align: center;
+}
+.doc-section .doc-group .mdi-signature-freehand,
+.doc-section .doc-group .mdi-file-upload-outline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    height: 50px;
+}
+.doc-section h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 5px 0;
+}
+.tenant-section .application-view-box .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.no-agreement {
+    background-color: #dee3eb;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+.no-agreement button.close{
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+.agreement-left {
+    width: 100%;
+    max-width: 60%;
+}
+.agreement-right {
+    max-width: 40%;
+    width: 100%;
+    text-align: right;
+    padding-right: 40px;
+}
+a.lease-find {
+    background-color: #346dd1;
+    color: #fff;
+    font-size: 20px;
+    padding: .25rem 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+}
+a.lease-find:hover {
+    background-color: #843fce;
+}
+.bs-searchbox+.bs-actionsbox {
+    padding: 0 3px 4px;
+}
+button.bs-deselect-all, button.bs-select-all {
+    padding-left: .25rem !important;
+    padding-right: .25rem !important;
+}
+/*Lease pages CSS End*/
+/*Responsive Design CSS Start*/
+@media screen and (min-width: 992px){
+.doc-section .form-group.doc-group {
+    max-height: 335px;
+    /* overflow-y: auto; */
+}
+}
+@media screen and (max-width: 991px){
+.single-tenant {
+    max-width: 100%;
+}
+.doc-section .form-group.doc-group {
+    max-width: 100%;
+    width: 100%;
+    flex: 0 0 100%;
+}
+.account-name p a {
+    word-break: break-all;
+}
+}
+@media screen and (max-width: 767px){
+.tenant-section .navtab-bg .nav-link {
+    margin: 0;
+    border-radius: 0;
+    padding: .5rem .5rem;
+    text-align: left;
+}
+.new-tenant .single-tenant h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+.new-tenant .single-tenant a {
+    font-size: 18px;
+}
+.lease-each .tenant-account h4.page-title {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.lease-each {
+    padding: .5rem;
+}
+.view-tenant {
+    padding: .5rem .75rem;
+}
+.view-tenant a {
+    font-size: 18px;
+}
+.show-lease .all-lease-btn {
+    font-size: 18px;
+}
+.no-agreement {
+    flex-wrap: wrap;
+}
+.agreement-right {
+    text-align: left;
+    padding-right: 0px;
+    max-width: 100%;
+}
+.agreement-left {
+    max-width: 100%;
+}
+}
+@media screen and (max-width: 568px){
+.common-lease {
+    flex-wrap: wrap;
+}
+.lease-left,.lease-right{
+    width: 100%;
+}
+.lease-right{
+    margin-top: 30px;
+}
+}
+@media screen and (max-width: 520px){
+.title-box-left p a {
+    white-space: nowrap;
+}
+.title-box-left p a + a {
+    margin-left: 0;
+}
+}
+@media screen and (max-width: 480px){
+.page-title-box .title-box-left,
+.page-title-box .title-box-right{
+    width: 100%;
+}
+.page-title-box .title-box-right{
+    margin-top: 20px;
+}
+.tenant-account .image-circle.no-image {
+    font-size: 20px;
+    height: 60px;
+}
+.doc-group .ff_fileupload_wrap .ff_fileupload_dropzone_wrap::after {
+    width: 100%;
+}
+.doc-group .ff_fileupload_wrap .ff_fileupload_dropzone::after {
+    width: 80%;
+}
+}
+@media screen and (max-width: 414px){
+.application-view-section.tenant-section .application-view-box {
+    padding: .75rem;
+}
+.agreement-right {
+    text-align: center;
+}
+.dataTable tbody tr td span {
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+}
+@media screen and (max-width: 375px){
+.show-lease .all-lease-btn {
+    font-size: 14px;
+}
+.new-tenant .single-tenant h3 {
+    font-size: 18px;
+}
+.doc-section h4 {
+    font-weight: 600;
+    font-size: 18px;
+}
+}
+/*Responsive Design CSS End*/

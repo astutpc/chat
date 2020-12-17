@@ -1,0 +1,848 @@
+/*Application Leads CSS Start*/
+.btn{
+    font-family: 'Muli', sans-serif;
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #000;
+    font-family: 'Muli', sans-serif;
+}
+p{
+    color: #666;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+}
+p.lead{
+    color: #fff;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.create-border-only.application-card ul.list-inline::after {
+    content: "";
+    position: absolute;
+    height: 122%;
+    width: 106%;
+    background-color: #fafafa;
+    z-index: -1;
+    top: 0px;
+    left: -3%;
+}
+.create-border-only.application-card ul.list-inline {
+    position: relative;
+    z-index: 1;
+}
+.create-border-only.application-card .card-body {
+    box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
+}
+.no-margin{
+    margin-left: 0;
+    margin-right: 0;
+}
+.application-title {
+    margin-top: 73px;
+}
+.application-card{
+    box-shadow: unset;
+    /*background-color: transparent;*/
+    margin-bottom: 24px;
+}
+.application-card .card-body {
+    padding-bottom: 0;
+}
+/*.application-card .card-body .app-wizard{
+    padding: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
+}*/
+.list-inline .list-inline-item button.btn-secondary {
+    background-color: #336ed1;
+    border-radius: 0;
+    border-color: #336ed1;
+    font-size: 20px;
+    padding: .25rem 1.5rem;
+    transition: all .3s;
+}
+.list-inline .list-inline-item button.btn-secondary:active, 
+.list-inline .list-inline-item button.btn-secondary:hover, 
+.list-inline .list-inline-item button.btn-secondary:focus {
+    outline: 0 none;
+    box-shadow: unset;
+    background-color: #4938d7;
+    border-color: #3f2ed4;
+}
+div#basictab1.active ~ ul.list-inline.wizard, div#basictab4.active ~ ul.list-inline.wizard {
+    justify-content: flex-end;
+}
+div.tab-pane.active ~ ul.list-inline.wizard {
+    justify-content: space-between;
+    display: flex;
+}
+.card-select label,.card-select input {
+    cursor: pointer;
+}
+.card-select label + label {
+    margin-left: 10px;
+}
+.payment-left .input-group-append {
+    margin-top: 10px;
+}
+.payment-left .input-group-append span.input-group-text {
+    border-radius: 0;
+}
+body.auth-fluid-pages{
+    background-color: #fafafa;
+}
+.application-card ul.list-inline {
+    background-color: #fafafa;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.application-card .form-wizard-header .nav-link span {
+    font-size: 16px;
+}
+.application-card .nav-justified .nav-item + .nav-item a {
+    margin-left: 1rem;
+}
+.application-card .nav-justified .nav-item {
+    flex-basis: unset;
+    flex-grow: unset;
+}
+.tenant-title,.subsection{
+    width: 100%;
+}
+.subsection p.form-inner-title {
+    margin-bottom: 0;
+}
+h3.tenant-title {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.subsection {
+    border-bottom: 1px solid #ccc;
+}
+.application-card .tenant-sub-title{
+    margin-bottom: 0;
+}
+.tab-pane .subsection:first-of-type {
+    margin-top: 30px;
+}
+.phone-option .custom-control {
+    padding: 0;
+    width: 33%;
+}
+.phone-option .custom-control-label {
+    width: 100%;
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+}
+.phone-option .is-invalid ~ .custom-control-label {
+    border-color: #f86262;
+    color: #6c757d !important;
+}
+.phone-option .custom-control:nth-child(3) .custom-control-label {
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.subsection div#add_pet,#add_vehicle {
+    width: 100%;
+}
+.phone-option .custom-control-label::before{
+    display: none;
+}
+.custom-radio .custom-control-input:checked~.custom-control-label{
+    background-color: #f0f0f0;
+}
+.btn-add-field {
+    width: 100%;
+}
+#basictab4 .custom-radio .custom-control-input:checked~.custom-control-label {
+    background-color: transparent;
+}
+#basictab4 .subsection p.form-inner-title {
+    margin-bottom: 20px;
+}
+.doc-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.doc-list li i {
+    margin-right: 8px;
+    color: #346dd1;
+    font-size: 22px;
+}
+button.field-add:hover, button.field-add:active,
+button.field-add:focus,button.field-add {
+    color: #3283f6;
+    font-size: 20px;
+    font-weight: 600;
+    outline: 0 none!important;
+    box-shadow: unset !important;
+}
+button.field-add i {
+    margin-right: 10px;
+}
+.application-card .tab-pane .form-group .form-control[type="number"]{
+    width: 100%;
+    max-width: 100%;
+}
+.phone-option .custom-control {
+    margin-top: 0;
+}
+.application-card h4.col-form-label {
+    width: 100%;
+    margin-top: 0;
+    color: #6c757d;
+    margin: 0;
+}
+.option-group label.custom-control-label {
+    font-size: 17px;
+    color: #6c757d;
+    min-height: 44.39px;
+}
+.option-group.phone-option label.custom-control-label {
+    color: #6c757d;
+}
+.application-card .form-group textarea.form-control {
+    height: auto;
+    min-height: 100px;
+}
+.tab-pane .subsection:last-child {
+    border-bottom: medium none;
+}
+.employer-section .option-group .custom-control {
+    margin-top: 0px;
+}
+.additional {
+    width: 100%;
+}
+.doc-group .ff_fileupload_wrap .ff_fileupload_dropzone {
+    height: 160px;
+    background-color: #dee3eb;
+    border: 2px solid #dee3eb;
+    background-image: unset;
+    border-radius: 0;
+}
+.doc-group .ff_fileupload_wrap .ff_fileupload_dropzone_wrap::after {
+    position: absolute;
+    content: "Drag and Drop to Upload";
+    color: #000;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+.doc-group .ff_fileupload_wrap .ff_fileupload_dropzone::after {
+    position: absolute;
+    content: "Select Document";
+    background-color: #3283f6;
+    color: #fff;
+    padding: .5rem 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+#basictab5 span.text-small {
+    display: block;
+}
+#basictab5 .option-group label.custom-control-label{
+    min-height: 30px;
+}
+.doc-list{
+    margin-top: 40px;
+}
+.doc-upload {
+    margin-bottom: 0;
+}
+.tab-pane .form-group .image-guide {
+    height: 18px;
+    line-height: 18px;
+}
+h3.tenant-title i.mdi-information-outline {
+    margin-left: 10px;
+    color: #000 !important;
+}
+.payment-check img {
+    max-width: 320px;
+    margin-left: 10px;
+}
+.final-step .tenant-title {
+    text-align: center;
+    margin-top: 0;
+}
+.subsection.payment-right {
+    width: 100%;
+}
+.subsection.payment-left {
+    width: 100%;
+    border-bottom: medium none;
+    margin-bottom: 0 !important;
+}
+.form-group.expiry-date {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-group.expiry-date label.col-form-label {
+    width: 100%;
+}
+.expiry-date .select-bind {
+    width: 50%;
+    max-width: 48%;
+    position: relative;
+}
+.payment-full {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.subsection.payment-right {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;
+    border-bottom: medium none;
+}
+.subsection.payment-left {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.payment-both {
+    max-width: 100%;
+    margin-left: auto;
+    padding: 1rem 1rem;
+    background-color: #dee3eb;
+    text-align: center;
+}
+.tab-pane.final-step .subsection:first-of-type{
+    margin-top: 10px;
+}
+.payment-both p.tenant-title {
+    font-size: 20px;
+}
+.payment-both .amount {
+    font-size: 20px;
+}
+.amount strong {
+    margin-left: 15px;
+}
+.additional.autocomplete_box {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+.additional.past_employer {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+.additional.current_employer {
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+.property-create-page {
+    margin-top: 73px;
+}
+.payment-left .form-group .dropdown .btn {
+    line-height: 1.75;
+}
+.expiry-date .select-bind label.is-invalid {
+    left: 0;
+}
+/*.additional.current_employer {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+}
+.additional.vehicle_div {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+}
+.additional.pet_div {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+}
+.additional.income_source {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+}*/
+#basictab4.active ~ .list-inline .skip-property, 
+#basictab4.active ~ .list-inline .list-property{
+    display: none;
+}
+#basictab1 .subsection:last-child,div#basictab4 .subsection:last-child{
+    margin-bottom: 0 !important;
+}
+.tab-pane.section-four .custom-radio ~ label.is-invalid {
+    top: 87%;
+}
+.file-uploads-custom {
+    width: 100%;    
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ul.each-upload {
+    width: 100%;
+    max-width: 48%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+ul.each-upload li:nth-child(2) a {
+    max-width: 100%;
+    height: 18px;
+    overflow: hidden !important;
+    display: inline-block;
+    position: relative;
+}
+ul.each-upload li .fa-file-alt {
+    font-size: 32px;
+    margin-right: 10px;
+}
+ul.each-upload li:nth-child(2) {
+    max-width: calc(100% - 85px);
+    width: 100%;
+}
+ul.each-upload li .fa-trash-alt {
+    color: #f86262;
+    margin-left: 10px;
+    font-size: 20px;
+}
+div#documents .view-section {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: medium none;
+}
+/*.tab-pane.section-four label.is-invalid#lead-error, 
+.tab-pane.section-four label.is-invalid#comments-error {
+    top: 100%;
+}*/
+/*#basictab6.active ~ .list-inline .skip-property, 
+#basictab6.active ~ .list-inline .list-property{
+    display: none;
+}*/
+/*Application view page CSS End*/
+/*Application view page CSS Start*/
+.content-page .application-view-section .page-title-box {
+    margin-bottom: 20px;
+}
+.application-view-section{
+    margin-top: 73px;
+}
+.application-view-box .navtab-bg .nav-link {
+    margin: 0;
+    border-radius: 0;
+}
+.application-view-box .nav-link.active{
+    background-image: linear-gradient(to right, #843fce 30%, #346dd1);
+}
+.application-view-box .nav-link span {
+    font-size: 22px;
+    font-weight: 400 !important;
+    color: #666;
+}
+.application-view-box .nav-link span.number-step {
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #dadada;
+    margin-right: 8px;
+}
+.application-view-box .nav-link.active span.number-step {
+    color: #000;
+    background-image: unset;
+    background-color: #fff;
+}
+.application-view-box .nav-link.active span{
+    color: #fff
+}
+.application-view-box .nav-link span {
+    font-size: 16px;
+}
+.application-view-box .nav-justified .nav-item + .nav-item a {
+    margin-left: 1rem;
+}
+.application-view-box .nav-justified .nav-item {
+    flex-basis: unset;
+    flex-grow: unset;
+}
+.vendor-view .application-view-box .nav-justified .nav-item {
+    flex-basis: unset;
+    flex-grow: 1;
+}
+.vendor-view .accordion-content .accordion {
+    font-weight: 400;
+}
+.vendor-view .accordion-content .accordion span {
+    margin-right: 8px;
+}
+.vendor-view .accordion-content .accordion strong:nth-child(2) {
+    margin-right: 40px;
+}
+.vendor-view .accordion-content .accordion,
+.vendor-view .accordion-content .active, 
+.vendor-view .accordion-content .accordion:hover {
+    background-color: #edeff1;
+}
+.vendor-view .accordion-content .panel{
+    border: 2px solid #edeff1;
+    border-top: medium none;
+}
+.accordion-content {
+    margin-top: 20px;
+}
+.accordion-content + .accordion-content {
+    margin-top: 0;
+}
+.application-view-box .tab-pane .subsection:first-of-type {
+    margin-top: 10px;
+}
+.view-content .tab-pane .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.view-content p.form-inner-title {
+    font-size: 24px;
+    color: #000;
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5rem;
+}
+.view-content p.form-inner-title::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(to right, #843fce 30%, #346dd1);
+}
+.view-content .subsection {
+    border-bottom: medium none;
+}
+.view-content ul.user-info li strong,
+.view-content ul.user-info li span {
+    color: #000;
+}
+.view-content ul.user-info {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.view-content ul.user-info li {
+    margin-right: 20px;
+    margin-top: 16px;
+    min-width: 30%;
+}
+/*.vendor-view .view-content ul.user-info li {
+    margin-right: 20px;
+    margin-top: 16px;
+    min-width: calc(50% - 22px);
+}*/
+.view-content ul.user-info li span {
+    margin-right: 10px;
+    /*min-width: 105px;*/
+    display: inline-block;
+}
+.view-content ul.user-info li.full-width {
+    min-width: 100%;
+}
+.view-content ul.user-info.employer-info li span {
+    /*min-width: 175px;*/
+}
+.view-content .subsection ul.user-info + ul.user-info {
+    margin-top: 20px;
+    padding-top: 0px;
+    border-top: 1px solid #ccc;
+}
+.view-content .subsection ul.user-info:last-child{
+    padding-bottom: 10px;
+}
+.view-content .subsection ul.user-info:first-of-type{
+    padding-bottom: 0px;
+}
+ul.user-info.other-info > li {
+    min-width: auto;
+    width: 100%;
+    margin-right: 0;
+}
+.view-content ul.sublist-group.user-info span {
+   /* min-width: 85px;*/
+}
+p.explain {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0;
+    margin-top: 15px;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+p.explain strong {
+    min-width: 100px;
+}
+.uploaded-doc ul li i.fa-download {
+    font-size: 24px;
+    color: #666;
+}
+.subsection.file-uploads-custom p.form-inner-title {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.application-view-section h4.page-title {
+    white-space: normal;
+}
+.file-uploads-custom ul.user-info li + li span {
+    /*min-width: 40px;*/
+}
+.view-content ul.user-info.other-info li > strong {
+    margin-right: 10px;
+}
+.vendor-create-page .form-inner-title {
+    font-size: 24px;
+    color: #000;
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: .5rem;
+}
+.vendor-create-page .form-inner-title::after {
+    position: absolute;
+    content: "";
+    left: 10px;
+    bottom: 0;
+    height: 2px;
+    width: calc(100% - 25px);
+    background-image: linear-gradient(to right, #843fce 30%, #346dd1);
+}
+.vendor-create-page .subsection {
+    border-bottom: medium none;
+}
+.mt-custom {
+    margin-top: 5px;
+}
+.vendor-create-page .card-body {
+    padding-top: 10px;
+}
+.datepicker.datepicker-dropdown.dropdown-menu {
+    z-index: 9999 !important;
+}
+.vendor-view .application-view-box .navtab-bg .nav-link {
+    text-align: left;
+}
+/*Application view page CSS End*/
+/*Responsive Design CSS Start*/
+@media screen and (min-width: 1200px){
+.content-page .application-view-section {
+    max-width: 1320px;
+    padding: 0 60px;
+}
+}
+@media (min-width: 992px){
+body[data-layout-mode=horizontal] .content-page {
+    padding: 0px 15px 70px 15px;
+}
+}
+@media screen and (min-width: 768px)and (max-width: 992px){
+ul.each-upload {
+    width: 100%;
+    max-width: 100%;
+}
+.uploaded-doc  ul.each-upload {
+    width: 100%;
+    max-width: 48%;
+}
+}
+@media screen and (min-width: 768px)and (max-width: 991px){
+.application-view-box .nav-link span.number-step {
+    font-size: 14px;
+    margin-right: 0px;
+}
+.application-view-box .nav-link span {
+    font-size: 14px;
+}
+.application-view-box .nav-justified .nav-item + .nav-item a {
+    margin-left: .25rem;
+}
+}
+@media screen and (max-width: 1024px){
+.phone-option .custom-control-label {
+    padding: .5rem .5rem;
+}
+.option-group.phone-option .custom-control {
+    margin-right: 0px;
+}
+.form-wizard-header .nav-link span.number-step {
+    margin-right: 0px;
+}
+.view-content ul.user-info.employer-info li {
+    min-width: 46%;
+}
+.application-card .nav-justified .nav-item + .nav-item a {
+    margin-left: .5rem;
+}
+.vendor-view .view-content ul.user-info li {
+    min-width: 46%;
+}
+}
+@media screen and (max-width: 991px){
+.payment-left .form-group.col-md-6 {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.expiry-date .select-bind {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.expiry-date .select-bind + .select-bind {
+    margin-top: 30px;
+}
+.application-view-section {
+    margin-top: 5px;
+}
+.vendor-create-page.admin-about {
+    margin-top: 25px !important;
+}
+.vendor-view .view-content ul.user-info li * {
+    white-space: nowrap;
+}
+}
+@media screen and (max-width: 812px){
+.application-card .nav-justified .nav-item + .nav-item a {
+    margin-left: .5rem;
+}
+.view-content ul.user-info li {
+    margin-right: 20px;
+    margin-top: 16px;
+    min-width: 46%;
+}
+}
+@media screen and (max-width: 767px){
+.application-card .nav-pills .nav-link.active span.number-step {
+    background-color: transparent;
+    color: #fff;
+}
+.application-card  .form-wizard-header .nav-link span.number-step {
+    background-color: #dadada;
+}
+.application-card .form-wizard-header a.nav-link {
+    background-color: #dadada;
+}
+.application-card .nav-justified .nav-item {
+    flex-grow: 1;
+}
+.application-card .nav-pills .nav-link {
+    text-align: center;
+}
+.application-view-box .nav-justified .nav-item {
+    flex-grow: 1;
+}
+button.field-add:hover, button.field-add:active, 
+button.field-add:focus, button.field-add{
+    font-size: 17px;
+    padding: .25rem .25rem;
+}
+button.field-add i {
+    margin-right: 3px;
+}
+.application-view-box .nav-link span.number-step {
+    font-size: 14px;
+    margin-right: 0px;
+}
+.application-view-box .nav-link span {
+    font-size: 14px;
+}
+.application-view-box .nav-justified .nav-item + .nav-item a {
+    margin-left: .25rem;
+}
+.application-view-box .navtab-bg .nav-link {
+    margin: 0;
+    border-radius: 0;
+    padding: .5rem .5rem;
+}
+.doc-list {
+    margin-top: 0px;
+}
+.subsection.payment-left {
+    padding-right: 0px;
+    width: 100%;
+    margin-top: 0 !important;
+}
+.subsection.payment-right {
+    width: 100%;
+}
+.payment-both {
+    margin-top: 15px;
+    max-width: 100%;
+    margin-left: 0px;
+    padding: 1rem .5rem;
+    margin-right: 0px;
+}
+.view-content ul.user-info.employer-info li span {
+   /* min-width: 145px;*/
+}
+.vendor-create-page.admin-about {
+    margin-bottom: 15px;
+}
+}
+@media screen and (max-width: 575px){
+ul.each-upload {
+    width: 100%;
+    max-width: 100%;
+}
+p.explain{
+    display: inline-block;
+}
+.vendor-view .application-view-box .navtab-bg .nav-link {
+    text-align: center;
+}
+}
+@media screen and (max-width: 440px){
+.vendor-view .application-view-box .nav-link span.d-sm-inline {
+    display: none;
+}
+}
+@media screen and (max-width: 414px){
+#basictab2 .option-group .custom-control.custom-radio {
+    min-width: 33%;
+}
+.payment-check img {
+    max-width: 75%;
+    margin-left: 0px;
+    width: auto;
+}
+}
+@media screen and (max-width: 360px){
+.tab-two .doc-name {
+    flex-wrap: wrap;
+}
+.tab-two .doc-name .doc-name-title {
+    margin-bottom: 10px;
+}
+}
+@media screen and (max-width: 320px){
+.phone-option .custom-control-label {
+    padding: .5rem .5rem;
+}
+}
+/*Responsive Design CSS End

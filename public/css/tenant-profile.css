@@ -1,0 +1,260 @@
+/*Tenant CSS Start*/
+.btn{
+    font-family: 'Muli', sans-serif;
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #000;
+    font-family: 'Muli', sans-serif;
+}
+p{
+    color: #666;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+}
+p.lead{
+    color: #fff;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.no-margin{
+    margin-left: 0;
+    margin-right: 0;
+}
+.tenant-section .outer-tenant {
+    margin-top: 20px;
+}
+.back-btn {
+    color: #000;
+    border: medium none;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 0;
+}
+.back-btn i.mdi-keyboard-backspace {
+    margin-right: 6px;
+}
+.page-title-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tenant-account h4.page-title {
+    margin: 0;
+    margin-left: 10px;
+}
+.page-title-box .tenant-account {
+    display: flex;
+    align-items: center;
+}
+.tenant-account .image-circle {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    margin-bottom: 0;
+}
+.tenant-account .image-circle.no-image {
+    color: #fff;
+    background-image: linear-gradient(to right, #843fce 30%, #346dd1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.content-page .tenant-section .page-title-box {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+button.btn-blue.lease-btn {
+    border: medium none;
+    font-size: 24px;
+}
+button.btn-blue.lease-btn:hover,
+button.btn-blue.lease-btn:active,
+button.btn-blue.lease-btn:focus{
+    border: medium none;
+    outline: 0 none !important;
+    box-shadow: unset !important;
+}
+.title-box-left p a + a {
+    margin-left: 20px;
+}
+.title-box-left p a i {
+    color: #000;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.common-lease {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.common-lease {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+.upcoming-lease {
+    color: #843fce;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.current-lease {
+    color: #346dd1;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.manage-btn {
+    font-size: 20px;
+    padding: .25rem 1.25rem;
+    border: 2px solid #346dd1;
+    color: #346dd1;
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all .1s ease-in-out;
+    font-weight: 600;
+}
+.manage-btn:hover,.manage-btn:active,.manage-btn:focus {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #346dd1;
+    outline: 0 none !important;
+    box-shadow: unset !important;
+}
+.lease-left p {
+    font-size: 16px;
+}
+.lease-left p.tenant-name {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.lease-left p:last-child {
+    margin-bottom: 0;
+}
+.lease-right p strong {
+    margin-right: 6px;
+}
+.tenant-section p.form-inner-title i.mdi.mdi-pencil {
+    color: #336ed1;
+    cursor: pointer;
+}
+.emergencey-contact .title-detail .btn {
+    /* margin-left: 20px; */
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #336ed1;
+    border-radius: 0;
+}
+.emergencey-contact .btn.btn-primary.save-btn{
+    background-color: #336ed1;
+}
+.emergencey-contact .title-detail .btn:hover{
+    background-color: #336ed1;
+    color: #fff;
+    opacity: 0.9;
+}
+.emergencey-contact {
+    margin-top: 30px;
+}
+/* .emergencey-contact .title-detail span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+} */
+.form-group .form-control.is-invalid{
+    border-color: #f86262 !important;
+}
+.form-group .is-invalid  {
+    color: #f86262 !important;
+}
+.form-group  label .required{
+    color: #f86262 !important;
+}
+button.contact-btn {
+    border: medium none;
+    background-color: transparent;
+    color: #336ed1;
+    font-size: 20px;
+    padding: 0;
+    font-weight: 600;
+}
+button.contact-btn:hover {
+    opacity: 0.9;
+}
+.common-lease.no-lease{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-color: #eee;
+}
+.common-lease.no-lease button.add-lease {
+    background-color: transparent;
+    border: 2px solid #336ed1;
+    font-size: 20px;
+    padding: .5rem 1.5rem;
+    color: #336ed1;
+    font-weight: 600;
+}
+.common-lease.no-lease button.add-lease:hover,
+.common-lease.no-lease button.add-lease:active,
+.common-lease.no-lease button.add-lease:focus{
+    outline: 0 none !important;
+    box-shadow: unset !important;
+    color: #fff;
+    background-color: #336ed1;
+
+}
+.tenant-section .subsection + .subsection {
+    margin-top: 30px;
+}
+.emergencey-contact .row {
+    margin-right: -12px !important;
+    margin-left: -12px !important;
+}
+.tenant-view-table {
+    /*margin-top: 30px;*/
+}
+/*Tenant view page CSS End*/
+/*Responsive Design CSS Start*/
+@media screen and (max-width: 767px){
+.tenant-section .navtab-bg .nav-link {
+    margin: 0;
+    border-radius: 0;
+    padding: .5rem .5rem;
+    text-align: left;
+}
+}
+@media screen and (max-width: 568px){
+.common-lease {
+    flex-wrap: wrap;
+}
+.lease-left,.lease-right{
+    width: 100%;
+}
+.lease-right{
+    margin-top: 30px;
+}
+}
+@media screen and (max-width: 520px){
+.title-box-left p a {
+    white-space: nowrap;
+}
+.title-box-left p a + a {
+    margin-left: 0;
+}
+}
+/*Responsive Design CSS End*/

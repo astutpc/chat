@@ -1,0 +1,369 @@
+/*Property Listing CSS Start*/
+.listing-card .card-body {
+    padding: 1.25rem;
+}
+.listing-card.card {
+    margin-bottom: 45px;
+    padding: 0;
+    box-shadow: unset;
+}
+#append_property .listing-card.card{
+    box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
+}
+.listing-card .card-single.no-property,
+.card-single.no-property:last-child {
+    margin-bottom: 0;
+    box-shadow: unset;
+    padding: 0;
+}
+.card-single.no-property p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.listing-card .card-single{
+    margin-bottom: 28px;
+    box-shadow: 0 0 3px 0 #666;
+    padding: 1.25rem;
+}
+.listing-card .card-single:last-child {
+    margin-bottom: 10px;
+}
+.page-title-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-body img{
+    width: auto;
+    max-width: 100%;
+}
+.list-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.property-title a {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 18px;
+    margin-bottom: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+.card-single:hover .property-title a{
+    color: #336ed1;
+}
+.list-details .price{
+    font-size: 24px;
+    line-height: 26px;
+    color: #000;
+    font-weight: 700;
+}
+.list-details p{
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.list-details .mdi{
+    display: inline-block;
+    margin-right: 10px
+}
+.list-amenities {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.list-amenities li{
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+.list-amenities li.posted-on{
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+    margin-left: auto;
+}
+.list-amenities li img {
+    margin-right: 12px;
+}
+.list-amenities li:not(.posted-on) {
+    margin-right: 30px;
+}
+.posted-on i{
+    margin-right: 10px;
+}
+.list-links{
+    display: flex;
+}
+.list-links li{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.list-links li a {
+    background-color: transparent;
+    color: #336ed1;
+    padding: .75rem 2rem;
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+.list-links li a.active,.list-links li a:hover,
+.list-links li a:active,.list-links li a:focus {
+    background-color: #336ed1;
+    color: #fff;
+    border: 1px solid #336ed1;
+    box-shadow: unset;
+    outline: 0 none;
+    cursor: pointer;
+
+}
+.listing-card .card-single .col-12.col-md-3 {
+    display: flex;
+    align-items: center;
+}
+.listing-card .card-single .col-md-3 img {
+    max-width: 210px;
+    max-height: 210px;
+}
+.applicantion-detail-tab {
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.applicantion-detail-tab p {
+    font-size: 18px;
+}
+.applicantion-detail-tab p strong{
+    color: #333;
+}
+.latest-content .nav-pills .nav-link {
+    text-align: left;
+}
+.latest-content .nav-link span {
+    font-size: 16px;
+    font-weight: 400 !important;
+    color: #666;
+}
+.latest-content span.number-step {
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #dadada;
+    margin-right: 8px;
+}
+.latest-content .nav-link.active span.number-step {
+    color: #000;
+    background-image: unset;
+    background-color: #fff;
+}
+.latest-content  .nav-link.active span {
+    color: #fff;
+}
+.vendor-property-detail .list-amenities li:not(.posted-on) {
+    margin-right: 5px;
+    font-size: 16px;
+}
+.vendor-property-detail .list-amenities {
+    padding-bottom: 0;
+    border-bottom: medium none;
+}
+.vendor-property-detail .listing-card .card-single:last-child {
+    margin-bottom: 0px;
+}
+.vendor-property-detail .listing-card .card-single{
+    margin-top: 20px;
+}
+.vendor-property-detail .listing-card .col-lg-6:nth-child(odd) {
+    padding-left: 0;
+}
+.vendor-property-detail .listing-card .col-lg-6:nth-child(even) {
+    padding-right: 0;
+}
+.vendor-property-detail .listing-card .card-single img {
+    width: auto;
+    max-width: 100%;
+}
+.vendor-property-detail .property-title {
+    margin-top: 0;
+}
+.vendor-property-detail .listing-card .card-single .list-amenities li img {
+    margin-right: 6px;
+    max-width: 25px;
+}
+.vendor-property-detail .listing-card .card-single {
+    padding: 1rem 0.5rem;
+}
+.vendor-property-detail .listing-card .vendor-view {
+    font-size: 18px;
+    font-weight: 600;
+}
+/*Property Listing CSS End*/
+/*Responsive Design CSS Start*/
+@media screen and (min-width: 1200px){
+.content-page .container-fluid {
+    max-width: 1320px !important;
+    padding: 0 60px;
+}
+}
+@media screen and (max-width: 1140px){
+.list-amenities{
+    flex-wrap: wrap;
+}
+.list-amenities li.posted-on {
+    margin-left: 0;
+    margin-top: 10px;
+}
+.list-links {
+    flex-wrap: wrap;
+}
+.list-links li {
+    margin-right: 15px;
+}
+.latest-content  .nav-justified .nav-item {
+    flex-basis: unset;
+    flex-grow: unset;
+}
+}
+@media screen and (max-width: 991px){
+.listing-card .card-single .col-md-3 img {
+    max-width: 180px;
+    max-height: 180px;
+}
+.applicantion-detail-tab {
+    flex-wrap: wrap;
+}
+.applicantion-detail-tab p{
+    width: 100%;
+    max-width: 50%;
+}
+.vendor-property-detail .listing-card .col-lg-6:nth-child(odd) {
+    padding-right: 0;
+}
+.vendor-property-detail .listing-card .col-lg-6:nth-child(even) {
+    padding-left: 0;
+}
+}
+@media screen and (max-width: 812px){
+.list-links li {
+    margin-right: 10px;
+}
+.list-links li a{
+    padding: .5rem 1rem;
+    font-size: 16px;
+}
+.listing-card .card-single .col-md-3 img {
+    max-width: 150px;
+    max-height: 150px;
+}
+.list-links {
+    justify-content: space-between;
+}
+.list-links li {
+    margin-right: 3px;
+}
+.latest-content .nav-pills .nav-link {
+    text-align: left;
+    padding: .25rem;
+}
+}
+@media screen and (max-width: 767px){
+.property-title a{
+    line-height: 36px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.list-details .price{
+    margin-top: 20px;
+}
+.list-links li {
+    margin-right: 0px;
+}
+.list-links li a {
+    padding: .5rem .5rem;
+    font-size: 16px;
+}
+.list-links {
+    justify-content: space-between;
+}
+.listing-card .card-single .col-md-3 img {
+    max-width: 220px;
+    max-height: 220px;
+}
+.listing-card .card-single .col-12.col-md-3 {
+    min-height: 180px;
+    justify-content: center;
+}
+.latest-content  .nav-justified .nav-item {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.latest-content .nav-pills .nav-link {
+    text-align: center;
+}
+.latest-content span.number-step {
+    color: #000;
+}
+
+}
+@media screen and (max-width: 575px){
+.applicantion-detail-tab p{
+    max-width: 100%;
+}
+.listing-card .card-single .col-12.col-md-3 {
+    min-height: 130px;
+}
+}
+@media screen and (max-width: 480px){
+.page-title-box {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.title-left {
+    width: 100%;
+}
+.card-single .col-md-3 {
+    text-align: center;
+}
+.list-details {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.list-links {
+    justify-content: center;
+}
+.list-links li {
+    width: 100%;
+    text-align: center;
+}
+.list-links li a {
+    width: 100%;
+    max-width: 170px;
+}
+.dataTable tbody tr td span {
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+.listing-card .card-single .col-12.col-md-3 {
+    min-height: 100px;
+}
+}
+@media screen and (max-width: 320px){
+.list-links {
+    justify-content: center;
+}
+.list-links li,.list-links li a {
+    width: 100%;
+    text-align: center;
+}
+}
+/*Responsive Design CSS End*/

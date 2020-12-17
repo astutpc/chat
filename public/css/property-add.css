@@ -1,0 +1,898 @@
+/*Property Add Form Wizard CSS Start*/
+.page-title-box .page-title {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.card-body .form-wizard-header {
+    margin-left: 0;
+    margin-right: 0;
+}
+.nav-justified .nav-item + .nav-item a {
+    margin-left: 40px;
+}
+.nav-pills .nav-link {
+    border-radius: 0;
+    background-color: #f0f0f0;
+    text-align: left;
+}
+#photo-video-form p button.image-guide {
+    line-height: 20px;
+    margin-left: 4px;
+}
+.nav-pills .nav-link.active{
+    background-image: linear-gradient(to right, #843fce 30%, #346dd1);
+}
+.form-wizard-header .nav-link span {
+    font-size: 22px;
+    font-weight: 400 !important;
+    color: #666;
+}
+.form-wizard-header .nav-link span.number-step {
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #dadada;
+    margin-right: 8px;
+}
+.nav-pills .nav-link.active span.number-step {
+    color: #000;
+    background-image: unset;
+    background-color: #fff;
+}
+.nav-pills .nav-link.active span{
+    color: #fff
+}
+.page-title-box p {
+    font-size: 18px;
+}
+p.form-inner-title {
+    font-size: 22px;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.list-inline .list-inline-item a.btn-secondary {
+    background-color: #336ed1;
+    border-radius: 0;
+    border-color: #336ed1;
+    font-size: 20px;
+    padding: .25rem 1.5rem;
+    transition: all .3s;
+}
+.tab-pane .bootstrap-select>.dropdown-toggle{
+    height: 100%;
+}
+.tab-pane .both-sections .bootstrap-select>.dropdown-toggle{
+    line-height: 1.75;
+}
+label.cal-label::after {
+    content: "\f678";
+    display: inline-block;
+    font-family: "Material Design Icons";
+    padding-left: 10px;
+}
+.form-group i.mdi-calendar-range {
+    position: absolute;
+    bottom: 8px;
+    font-size: 20px;
+    left: 25px;
+    z-index: 0;
+}
+.tab-pane .form-group.picker-icon .form-control {
+    border-radius: 0;
+    padding-left: 25px;
+}
+.tab-pane .form-group.picker-icon .mdi-calendar-range{
+    left: 20px;
+}
+.tab-pane  .form-group .cal-control {
+   padding-left: 35px;
+}
+.list-inline .list-inline-item a.btn-secondary:active,
+.list-inline .list-inline-item a.btn-secondary:hover,
+.list-inline .list-inline-item a.btn-secondary:focus {
+    outline: 0 none;
+    box-shadow: unset;
+    background-color: #4938d7;
+    border-color: #3f2ed4;
+
+}
+.tab-pane .bootstrap-select>.dropdown-toggle:hover,
+.tab-pane .bootstrap-select>.dropdown-toggle:active,
+.tab-pane .bootstrap-select>.dropdown-toggle:focus{
+    outline: 0 none !important;
+    box-shadow: unset;
+    border: medium none;
+}
+.tab-pane .form-group span.required,h4.title-label span.required {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgb(248, 98, 98);
+}
+.tab-pane .form-group .form-control{
+    border-radius: 0;
+}
+.tab-pane .form-control,.tab-pane .selectize-input{
+    border-radius: 0;
+    padding: .3rem .9rem;
+    border: 2px solid #ced4da;
+    box-shadow: 1px 1px 6px #ccc !important;
+}
+.tab-pane .form-control.is-invalid, .tab-pane .was-validated .form-control:invalid{
+    border-color: #f86262;
+}
+.tab-pane .form-control:hover,.tab-pane .form-control:active,.tab-pane .form-control:focus,
+.tab-pane .selectize-input:hover,.tab-pane .selectize-input:active,.tab-pane .selectize-input:focus{
+    box-shadow: 1px 1px 6px #ccc !important;
+}
+.tab-pane .bootstrap-select{
+    border: 2px solid #ced4da;
+}
+.tab-pane .form-control,.tab-pane .bootstrap-select{
+    height: calc(2em + .9rem + 2px);
+}
+.tab-pane .bootstrap-select{
+    border-radius: 0;
+    border: 2px solid #ced4da;
+    box-shadow: 1px 1px 6px #ccc !important;
+}
+.tab-pane .form-group span {
+    font-size: 18px;
+}
+.tab-pane i.mdi.mdi-help {
+    cursor: pointer;
+    color: #666;
+}
+/*.image-guide{
+    display: none !important;
+}
+.tab-pane i.mdi.mdi-help:hover ~ .image-guide{
+    display: inline-block !important;
+}*/
+.btn-col {
+    align-self: flex-end;
+    justify-content: flex-end;
+    display: flex;
+}
+.tab-pane a.btn-blue {
+    background-color: #336ed1;
+    border-radius: 0;
+    border-color: #336ed1;
+    font-size: 20px;
+    padding: .25rem 1rem;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all .3s;    
+}
+.tab-pane .btn-col a.btn-blue,.tab-pane .btn-col a.btn-blue:hover,
+.tab-pane .btn-col a.btn-blue:focus,.tab-pane .btn-col a.btn-blue:active{
+    padding: .25rem;
+    background-color: transparent !important;
+    color: #336ed1;
+    border-color: transparent !important;
+    outline: 0 none !important;
+    box-shadow: unset !important;
+}
+.tab-pane a.btn-blue span {
+    font-size: 28px !important;
+    font-weight: 600;
+    line-height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+p.form-inner-title span {
+    display: block;
+    font-size: 16px;
+    color: #666;
+}
+.tab-pane .form-group span.icon-before ~ .form-control {
+    padding-left: 30px;
+}
+span.icon-before {
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+}
+.tab-pane label.error, .tab-pane label.is-invalid {
+    position: absolute;
+    left: 15px;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    /*bottom: -30px;*/
+    color: rgb(248, 98, 98);
+    top: 100%;
+}
+.custom-control-input.is-invalid~.custom-control-label:not(.is-invalid), 
+.was-validated .custom-control-input:invalid~.custom-control-label:not(.is-invalid){
+    color: #000;
+}
+/*.tab-pane .show-tick.required {
+    border-color: #f86262;
+}*/
+.tab-pane .show-tick label.is-invalid {
+    left: 0;
+}
+h4.title-label {
+    width: 100%;
+    margin-bottom: 00px;
+    margin-top: 0;
+    font-size: 18px;
+    color: #666;
+    font-weight: 600;
+}
+form .row .form-group.option-group {
+    max-width: 100%;
+}
+.option-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.option-group .custom-control {
+    min-width: 16%;
+}
+.option-group.last-group .custom-checkbox {
+    min-width: 20%;
+}
+#basictab2 .option-group .custom-control {
+    min-width: 20%;
+}
+#basictab2 .option-group.renter-sec .custom-control {
+    min-width: 30%;
+}
+.option-group .custom-control-label::before,
+.option-group .custom-control-label::after {
+    top: 6px;
+}
+.option-group label.custom-control-label {
+    font-size: 17px;
+    color: #000;
+}
+.tab-pane .form-group span.text-small {
+    font-size: 16px;
+}
+.form-group.small-group{
+    max-width: 450px;
+}
+.option-group .custom-control {
+    margin-top: 20px;
+}
+label.col-form-label.small-label a {
+    color: #3e67d1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+label.col-form-label.small-label {
+    width: 100%;
+}
+.tab-pane .form-group textarea.form-control {
+    resize: none;
+    max-height: 160px;
+    height: 100%;
+}
+.tab-pane .form-group .form-control[type="number"] {
+    max-width: 140px;
+}
+.occupancy-limit.mb-4 {
+    margin-bottom: 1rem !important;
+}
+.wizard-card{
+    box-shadow: unset;
+}
+.wizard-card .card-body{
+    padding-bottom: 0;
+}
+.wizard-card ul.list-inline{
+    background-color: #fafafa;
+}
+.wizard-card ul.list-inline {
+    background-color: #fafafa;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+div.tab-pane.active ~ ul.list-inline.wizard {
+    justify-content: space-between;
+    display: flex;
+}
+div#basictab1.active ~ ul.list-inline.wizard,
+div#basictab4.active ~ ul.list-inline.wizard {
+    justify-content: flex-end;
+}
+div#basictab4.active ~ ul.list-inline.wizard .list-inline-item:not(.float-right){
+    margin-right: auto;
+}
+.wizard-card .list-inline-item .btn-secondary{
+    position: relative;    
+}
+.final-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 1144px;
+    margin: 110px auto;
+}
+.final-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.final-section ul li {
+    position: relative;
+}
+.final-section ul li {
+    position: relative;
+    min-height: 90px;
+}
+.left-section ul li img,.right-section ul li img {
+    position: absolute;
+    z-index: 1;
+}
+.left-section ul li:first-child img {
+    left: 90px;
+    bottom: 53px;
+}
+.left-section ul li:nth-child(2) img {
+    left: 5px;
+    bottom: 15px;
+}
+.left-section ul li:last-child img {
+    left: 90px;
+    bottom: -24px;
+}
+.right-section ul li:first-child img {
+    right: 90px;
+    bottom: 55px;
+}
+.right-section ul li:nth-child(2) img {
+    right: 5px;
+    bottom: 15px;
+}
+.right-section ul li:last-child img {
+    right: 90px;
+    bottom: -24px;
+}
+.center-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-section img {
+    z-index: 1;
+    position: relative;
+}
+.left-section ul{
+    text-align: center;
+}
+.right-section ul{
+    text-align: center;
+}
+.left-section ul li:nth-child(2) {
+    text-align: left;
+}
+.right-section ul li:nth-child(2) {
+    text-align: right;
+}
+.final-section ul li a {
+    display: inline-block;
+}
+.center-section img {
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.final-section ~ p {
+    margin-bottom: 40px;
+    width: 100%;
+}
+input.form-control.cal-control {
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+}
+/*Uploaded image CSS Start*/
+#propertyAddForm .ff_fileupload_wrap .ff_fileupload_dropzone {
+    height: 160px;
+    background-color: #dee3eb;
+    border: 2px solid #dee3eb;
+    background-image: unset;
+    border-radius: 0;
+}
+#propertyAddForm .ff_fileupload_wrap .ff_fileupload_dropzone::before {
+    position: absolute;
+    content: "or";
+    font-size: 16px;
+    color: #8c8c8c;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 43%;
+}
+#propertyAddForm .ff_fileupload_wrap .ff_fileupload_dropzone::after {
+    position: absolute;
+    content: "Select Files";
+    background-color: #3283f6;
+    color: #fff;
+    padding: .5rem 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+#propertyAddForm .ff_fileupload_wrap .ff_fileupload_dropzone_wrap::after{
+    position: absolute;
+    content: "Drag and Drop to Upload";
+    color: #000;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+.mobile-img{
+    display: none;
+}
+.uploaded-images {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+ul.single-upload {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.single-upload li.image-single {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 165px;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.single-upload li img {
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+ul.single-upload {
+    background-color: #fcfcfc;
+    margin-right: 4px;
+    margin-bottom: 30px;
+    max-width: 32%;
+    width: 100%;
+    border-radius: 4px;    
+    padding: .5rem;
+    position: relative;
+    transition: all .3s ease-in-out;
+    padding-top: 2rem;
+}
+ul.single-upload:first-child{
+    background-color: #E7EBF0;
+}
+ul.single-upload:first-child li.image-single::after {
+    content: "Featured photo";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    text-transform: uppercase;
+}
+ul.single-upload:first-child li.image-single::after {
+    content: "Featured photo";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    text-transform: uppercase;
+}
+ul.single-upload:first-child li.image-single::after {
+    content: "Featured photo*";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    text-transform: uppercase;
+    right: 0;
+    text-align: center;
+    font-weight: 700;
+}
+ul.single-upload .slides, ul.single-upload .actions{
+    text-align: center;
+}
+.single-upload li a {
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+    display: inline-block;
+    margin: 3px;
+    font-size: 30px;
+    padding: 0;
+    height: 36px;
+    line-height: 36px;
+    transition: all .3s ease-in-out;
+    width: 35px;
+}
+.single-upload li.actions,.single-upload .slides {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: none;
+    transition: all .3s ease-in-out;
+}
+.single-upload:hover li.actions,.single-upload:hover .slides{
+    display: flex;
+}
+.single-upload li.actions{
+    bottom: 6px;    
+}
+.single-upload li.slides {
+    top: 30px;
+}
+li.invalid-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    top: 100%;
+}
+li.invalid-image span {
+    font-size: 15px !important;
+    color: rgb(248, 98, 98);
+}
+.image-guide {
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.tab-pane .form-group .image-guide {
+    font-size: 14px;
+}
+button.image-guide.btn.btn-light i{
+    font-size: 20px;
+    color: #666;
+}
+button.image-guide.btn.btn-light,
+button.image-guide.btn.btn-light:hover,
+button.image-guide.btn.btn-light:active,
+button.image-guide.btn.btn-light:focus {
+    background-color: transparent;
+    border: medium none;
+    padding: 0;
+    box-shadow: unset !important;
+    outline: 0 none !important;
+}
+ul.single-upload:first-child li.slides {
+    justify-content: flex-end;
+}
+ul.single-upload:first-child a.prev {
+    display: none;
+}
+ul.single-upload:last-child li.slides {
+    justify-content: flex-start;
+}
+ul.single-upload:last-child a.next {
+    display: none;
+}
+.skip-property,.list-property{
+    display: none;
+}
+#basictab4.active ~ .list-inline .skip-property,#basictab4.active ~  .list-inline .list-property{
+    display: block;
+}
+#basictab4.active ~ .list-inline .list-inline-item.next.disabled {
+    display: none;
+}
+#basictab4.active ~ .list-inline .skip-property a,
+#basictab4.active ~ .list-inline .skip-property a:hover,
+#basictab4.active ~ .list-inline .skip-property a:active,
+#basictab4.active ~ .list-inline .skip-property a:focus{
+    background-color: transparent;
+    color: #666;
+    border: medium none !important;
+    box-shadow: unset;
+    margin-right: 10px;
+}
+.list-inline .list-inline-item.list-property .btn-secondary {
+    background-color: #336ed1;
+    border-radius: 0;
+    border-color: #336ed1;
+    font-size: 20px;
+    padding: .25rem 1.5rem;
+    transition: all .3s;
+    color: #fff;
+}
+.list-inline .list-property.list-inline-item .btn-secondary:active, 
+.list-inline .list-property.list-inline-item .btn-secondary:hover, 
+.list-inline .list-property.list-inline-item .btn-secondary:focus {
+    outline: 0 none;
+    box-shadow: unset;
+    background-color: #4938d7;
+    border-color: #3f2ed4;
+}
+.select-loader .spinner-overlay {
+    position: absolute;
+    width: 60px;
+    height: 41px;
+    bottom: 2px;
+    right: 40px;
+    background-color: transparent;
+    z-index: 1;
+}
+.select-loader .spinner-overlay .spinner-border {
+    border-width: .15em;
+    width: 16px;
+    height: 16px;
+}
+#photo-video-section ul.single-upload {
+    max-width: 24%;
+}
+/*Uploaded image CSS End*/
+@media screen and (min-width: 1200px){
+.property-create-page{
+    padding: 0 60px;
+    max-width: 1320px !important;
+}
+}
+@media (min-width: 992px){
+body[data-layout-mode=horizontal] .content-page {
+    padding: 70px 15px 70px 15px;
+}
+}
+@media (min-width: 768px){
+.btn-col {
+    max-width: 150px;
+}
+.form-group.mb-4.col-md-4.select-loader {
+    flex: 0 0 50%;
+    max-width: calc(50% - 150px);
+}
+}
+@media (max-width: 1260px){
+ul.single-upload li.image-single {
+    width: 145px;
+    height: 145px;
+}
+#photo-video-section ul.single-upload {
+    max-width: 32%;
+}
+}
+@media (max-width: 1100px){
+.tab-pane a.btn-blue span {
+    font-size: 22px !important;
+    line-height: 36px;
+    margin-right: 0;
+}
+.tab-pane a.btn-blue {
+    font-size: 16px;
+    padding: .25rem .25rem;
+}
+ul.single-upload,
+#photo-video-section ul.single-upload {
+    max-width: 48.5%;
+}
+}
+@media (max-width: 1024px){
+.desktop-img{
+    display: none;
+}
+.property-details .mobile-img{
+    display: block;
+}
+.final-section ul {
+    display: flex;
+    justify-content: space-between;
+}
+.left-section ul li:first-child img,
+.left-section ul li:nth-child(2) img,
+.left-section ul li:last-child img,
+.right-section ul li:first-child img,
+.right-section ul li:nth-child(2) img,
+.right-section ul li:last-child img{
+    left: unset;
+    bottom: unset;
+    right: unset;
+    position: relative;
+    width: auto;
+    max-width: 100%;
+}
+.final-section ul li {
+    width: 100%;
+}
+.final-section .col-md-4 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.final-section {
+    max-width: 100%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+}
+.final-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+}
+.center-section img{
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: unset;
+    width: auto;
+    max-width: 100%;
+}
+.center-section ul li {
+    text-align: center;
+    margin: 30px 0;
+}
+.left-section ul li:nth-child(2),
+.right-section ul li:nth-child(2) {
+    margin: 0 20px;
+    text-align: center;
+}
+.final-section ul li {
+    position: relative;
+    min-height: auto;
+}
+#basictab2 .option-group .custom-control {
+    min-width: 25%;
+}
+#basictab2 .option-group.renter-sec .custom-control {
+    min-width: 50%;
+}
+.option-group .custom-control {
+    margin-right: 20px;
+}
+}
+@media (max-width: 991px){
+.card-body .nav-pills li.nav-item a.nav-link {
+    padding: .25rem !important;
+}
+.form-wizard-header .nav-link span {
+    font-size: 16px;
+}
+.form-wizard-header .nav-link span.number-step{
+    margin-right: 0;
+}
+.card-body .form-wizard-header a.nav-link {
+}
+}
+@media (max-width: 768px){
+#basictab2 .option-group .custom-control {
+    min-width: 33%;
+}
+}
+@media (max-width: 767px){
+.form-wizard-header .nav-link span.number-step {
+    padding: 0px 5px;
+    font-size: 14px;
+}
+.nav-justified .nav-item + .nav-item a {
+    margin-left: 10px;
+}
+.form-wizard-header .nav-link span {
+    font-size: 15px;
+}
+.tab-pane a.btn-blue {
+    font-size: 16px;
+    padding: .25rem 1rem;
+}
+.tab-pane a.btn-blue span {
+    margin-right: 8px;
+}
+.tab-pane .form-group textarea.form-control{
+    height: auto;
+}
+.uploaded-images {
+    justify-content: flex-start;
+}
+.wizard-card ul.list-inline {
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+.tab-pane .form-group .form-control[type="number"] {
+    max-width: 100%;
+}
+}
+@media (max-width: 610px){
+.list-inline .list-inline-item .btn-secondary {
+    font-size: 18px !important;
+    padding: .25rem .5rem !important;
+}
+}
+@media (max-width: 575px){
+.nav-pills .nav-link.active span.number-step {
+    color: #fff;
+    background-color: transparent;
+}
+.card-body .nav-pills li.nav-item a.nav-link {
+    text-align: center;
+}
+.card-body .nav-pills .nav-link {
+    background-color: #dadada;
+}
+.final-section ul {
+    flex-direction: column;
+    align-items: center;
+}
+.left-section ul li:first-child img,
+.left-section ul li:nth-child(2) img,
+.right-section ul li:first-child img,
+.right-section ul li:nth-child(2) img {
+    margin-bottom: 25px;
+}
+}
+@media (max-width: 568px){
+.wizard-card {
+    margin-bottom: -5px;
+}
+.list-inline .list-inline-item a.btn-secondary {
+    padding: .25rem .5rem;
+}
+}
+@media (max-width: 520px){
+.center-section img {
+    max-width: 100%;
+}
+.final-section{
+    margin-top: 0;
+}
+}
+@media (max-width: 480px){
+ div#basictab4.active ~ ul.list-inline.wizard {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#basictab4.active ~ .list-inline .list-property{
+    width: 100%;
+    margin-top: 20px;
+    text-align: right;
+}
+}
+@media (max-width: 414px){
+ul.single-upload,
+#photo-video-section ul.single-upload {
+    max-width: 100%;
+}
+ul.single-upload li.image-single {
+    width: 200px;
+    height: 200px;
+}
+#basictab2 .option-group .custom-control {
+    min-width: 100%;
+}
+.option-group.last-group .custom-checkbox {
+    width: 100%;
+    margin-right: 0;
+}
+}
+@media (max-width: 375px){
+.list-inline .list-inline-item a.btn-secondary {
+    font-size: 17px;
+}
+#propertyAddForm .ff_fileupload_wrap .ff_fileupload_dropzone_wrap::after {
+    width: 100%;
+    text-align: center;
+}
+p.form-inner-title {
+    font-size: 19px;
+}
+}
+/*Property Add Form Wizard CSS End*/
+

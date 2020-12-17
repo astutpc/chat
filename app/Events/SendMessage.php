@@ -2,6 +2,9 @@
 
 namespace App\Events;
 
+use App\User;
+use App\Message;
+
 use Illuminate\Broadcasting\Channel;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Broadcasting\PrivateChannel;
@@ -11,20 +14,20 @@ use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcastNow;
 
-class SendMessage implements ShouldBroadcastNow
+class SendMessage implements ShouldBroadcast
 {
     use InteractsWithSockets, SerializesModels;
 
-    public $data = ['asas'];
-
+    
+    public $user;
     /**
      * Create a new event instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(User $user)
     {
-        //
+        $this->user = $user;
     }
 
     /**
@@ -34,7 +37,7 @@ class SendMessage implements ShouldBroadcastNow
      */
     public function broadcastOn()
     {
-        return new Channel('user-channel');
+        return new PresenceChannel('message.'.$this->user->id);
     }
 
     /**
@@ -42,17 +45,17 @@ class SendMessage implements ShouldBroadcastNow
      *
      * @return string
      */
-    public function broadcastAs()
-    {
-        return 'UserEvent';
-    }
-    /**
-     * The event's broadcast name.
-     *
-     * @return string
-     */
-    public function broadcastWith()
-    {
-        return ['title'=>'This notification from ItSolutionStuff.com'];
-    }
+    // public function broadcastAs()
+    // {
+    //     return 'UserEvent';
+    // }
+    // /**
+    //  * The event's broadcast name.
+    //  *
+    //  * @return string
+    //  */
+    // public function broadcastWith()
+    // {
+    //     return ['title'=>'This notification from ItSolutionStuff.com'];
+    // }
 }

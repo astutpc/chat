@@ -1,0 +1,558 @@
+/*Property Leads CSS Start*/
+
+body{
+    font-family: 'Muli', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #000;
+    font-family: 'Muli', sans-serif;
+}
+p{
+    color: #666;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+}
+p.lead{
+    color: #fff;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.btn{
+    font-family: 'Muli', sans-serif;
+}
+.settings-page {
+    padding: 0 60px;
+    max-width: 1320px !important;
+}
+.settings-page .form-group span.required{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgb(248, 98, 98);
+}
+.settings-page .form-control{
+    height: calc(2em + .9rem + 2px);
+    border-radius: 0;
+    padding: .3rem .9rem;
+    border: 2px solid #ced4da;
+    box-shadow: 1px 1px 6px #ccc !important;}
+.admin-about .form-control:hover,
+.admin-about .form-control:focus,
+.admin-about .form-control:active{
+    box-shadow: 1px 1px 6px #ccc !important;}
+.settings-page .form-control.is-invalid, 
+.settings-page .was-validated .form-control:invalid {
+    border-color: #f86262;
+}
+
+.settings-page label.error, .settings-page label.is-invalid {
+    position: absolute;
+    left: 15px;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    color: rgb(248, 98, 98);
+    top: 100%;
+}
+.settings-page .form-9-label label.error, 
+.settings-page .form-9-label label.is-invalid {
+    top: 240px;
+}
+.form-group.btn-group {
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-group button.btn,.btn-group a.btn {
+    border-radius: 0;
+    border-width: 2px;
+    max-width: 120px;
+    margin-left: 20px !important;    
+    border-color: #336ed1;
+    font-size: 20px;
+    padding: .25rem 1.5rem;
+    transition: all .3s;
+}
+.btn-group .btn.btn-primary{
+    background-color: #336ed1;
+}
+.btn-group .btn:hover,.btn-group .btn.btn-primary:hover,
+.btn-group .btn:active,.btn-group .btn.btn-primary:active,
+.btn-group .btn:focus,.btn-group .btn.btn-primary:focus{
+    outline: 0 none;
+    box-shadow: unset;
+    background-color: #4938d7;
+    border-color: #3f2ed4;
+    color: #fff;
+}
+ul.instruction-list {
+    margin-bottom: 20px;
+}
+.instruction-list li .number {
+    margin-right: 8px;
+    color: #346dd1;
+    font-size: 14px;
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #346dd1;
+    border-radius: 100%;
+    margin-top: 3px;
+}
+.instruction-list li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.settings-page .instruction-steps .instruction-list .number {
+    position: absolute;
+    left: 0;
+}
+.settings-page .instruction-steps .instruction-list li {
+    display: inline-block;
+}
+.payment-card .row{
+    align-items: center;
+}
+.settings-page .form-control.cvv-input {
+    max-width: calc(100% - 70px );
+}
+.cvv-example img {
+    width: auto;
+    max-width: 100%;
+}
+.cvv-example {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 70px;
+}
+.settings-page .payment-card label.error, 
+.settings-page .payment-card label.is-invalid {
+    left: 12px;
+}
+.payment-create.settings-page{
+    max-width: 1120px !important;
+}
+.payment-card .instruction-steps {
+    padding-right: 12px;
+    border-right: medium none;
+}
+.payment-card .settings-form-section {
+    padding-left: 12px;    
+}
+.banner-update .bootstrap-select.form-control {
+    padding: 0;
+}
+.banner-update .dropdown-toggle.btn-light,
+.banner-update .dropdown-toggle.btn-light:hover,
+.banner-update .dropdown-toggle.btn-light:active,
+.banner-update .dropdown-toggle.btn-light:focus {
+    background-color: #fff !important;
+    border: medium none;
+    padding-top: 10px;
+    outline: 0 none;
+    box-shadow: unset;
+    min-height: 40px;
+}
+.banner-update .page-title {
+    margin-bottom: 10px;
+}
+.banner-change .btn-light {
+    padding: 0;
+    background-color: #fff;
+}
+.banner-change .ff_fileupload_wrap .ff_fileupload_dropzone {
+    height: 160px;
+    background-color: #dee3eb;
+    border: 2px solid #dee3eb;
+    background-image: unset;
+    border-radius: 0;
+}
+.banner-change .ff_fileupload_wrap .ff_fileupload_dropzone_wrap::after {
+    position: absolute;
+    content: "Drag and Drop to Upload";
+    color: #000;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+.banner-change .ff_fileupload_wrap .ff_fileupload_dropzone::before {
+    position: absolute;
+    content: "or";
+    font-size: 16px;
+    color: #8c8c8c;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 43%;
+}
+.banner-change .ff_fileupload_wrap .ff_fileupload_dropzone::after {
+    position: absolute;
+    content: "Select Files";
+    background-color: #3283f6;
+    color: #fff;
+    padding: .5rem 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+.banner-update textarea.form-control {
+    height: auto;
+    max-height: 60px;
+}
+.settings-page .col-form-label .required{
+    color: rgb(248, 98, 98);
+}
+.admin-about .ff_fileupload_wrap .ff_fileupload_dropzone {
+    height: 140px;
+    background-color: #dee3eb;
+    border: 2px solid #dee3eb;
+    background-image: unset;
+    border-radius: 0;
+}
+.admin-about #homepage-contact_us .ff_fileupload_wrap .ff_fileupload_dropzone {
+    height: 150px;
+}
+.admin-about .ff_fileupload_wrap .ff_fileupload_dropzone_wrap::after {
+    position: absolute;
+    content: "Drag and Drop to Upload";
+    color: #000;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+.admin-about .ff_fileupload_wrap .ff_fileupload_dropzone::after {
+    position: absolute;
+    content: "Select Document";
+    background-color: #3283f6;
+    color: #fff;
+    padding: .5rem 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+.admin-about #video_container {
+    text-align: center;
+    position: relative;
+}
+.admin-about button#play_button {
+    top: 50%;
+    right: unset;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.admin-about #video_container video {
+    width: 100% !important;
+}
+button.video-upload-btn {
+    width: 100%;
+    height: 140px;
+    background-color: #dee3eb;
+    border: medium none;
+    font-size: 18px;
+    color: #000;
+    padding: 0;
+    opacity: 0.85;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+button.video-upload-btn:hover,
+button.video-upload-btn:active,
+button.video-upload-btn:focus{
+    outline: 0 none;
+    opacity: 1;
+    box-shadow: unset;
+    border: medium none;
+}
+button.video-upload-btn::after {
+    content: "Click to Upload Video";
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    color: #000;
+    transform: translateX(-50%);
+    font-size: 16px;
+    min-width: 160px;
+}
+.video-upload-btn img {
+    max-width: 60px;
+}
+.common-logo-update {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.common-logo-update .image-single {
+    text-align: center;
+    margin: 0;
+}
+.common-logo-update .img-fluid {
+    width: auto;
+    max-width: 100px;
+}
+.updated-logo .img-fluid {
+    background-color: #8b49d0;
+}
+.updated-hover-logo .img-fluid{
+    background-color: #dee3eb;
+}
+.icon-upload-group .form-group {
+    margin-bottom: 0;
+    position: relative;
+}
+.icon-upload-group .form-group label.is-invalid {
+    left: 0;
+}
+.admin-about #homepage-testimonial .ff_fileupload_wrap .ff_fileupload_dropzone {
+    height: 180px;
+}
+.admin-about #homepage-testimonial .image-single .img-thumbnail {
+    max-height: 180px;
+}
+.leads-table-card .btn-primary:not(:disabled):not(.disabled):active,
+.leads-table-card .test-btn:hover,.leads-table-card .test-btn:active,.test-btn:focus{
+    outline: 0 none !important;
+    box-shadow: unset !important;
+    background-color: transparent !important;
+}
+.compose-mail-hide .ff_fileupload_wrap *{
+    height: 0px;
+    width: 0px;
+}
+form#homepage-trusted_by .img-thumbnail {
+    max-height: 140px;
+}
+form#homepage-banner ul .image-single img {
+    max-width: 360px;
+    max-height: 150px;
+}
+form#homepage-contact_us .image-single img {
+    max-height: 150px;
+}
+
+.warning-listing p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.warning-listing li {
+    position: relative;
+    padding-left: 25px;
+    margin-top: 5px;
+}
+.warning-listing li i {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    font-size: 10px;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #336ed1;
+    border-radius: 100%;
+    color: #336ed1;
+}
+form#homepage-manage_genral img#uploaded_poster {
+    max-height: 140px;
+}
+.settings-form .selectize-control.multi .selectize-input.has-items {
+    overflow: visible;
+    height: auto;
+}
+.settings-form .selectize-control.multi .selectize-input{
+    border-radius: 0 !important;
+    padding: .3rem .9rem !important;
+    border: 2px solid #ced4da !important;
+    box-shadow: 1px 1px 6px #ccc !important;
+    height: calc(2em + .9rem + 2px);
+}
+.compose-mail-card.settings-page {
+    max-width: 900px !important;
+    margin: 0 auto;
+}
+.show-file {
+    /*background-color: #dee3eb;*/
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /*padding: 6px 0;*/
+}
+.show-file .fa-file-alt {
+    left: 0px;
+    color: #336ed1;
+    font-size: 18px;
+    position: relative;
+}
+/*.show-file .fa {
+    color: #fff;
+    left: 17px;
+    position: absolute;
+    top: 23px;
+}*/
+.show-file .doc-link {
+    width: calc(100% - 35px);
+    height: 21px;
+    overflow: hidden;
+}
+.show-file a {
+    padding-left: 16px;
+}
+.vendor-admin-card .form-control ~ i {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.settings-page .icon-group-vendor .form-control {
+    padding-left: 25px;
+}
+.row.autocomplete_box.no-margin {
+    width: 100%;
+}
+.banner-update.admin-about.document-fields {
+    max-width: 820px !important;
+}
+.document-fields .each-upload {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid transparent;
+    margin-bottom: 5px;
+    padding: 8px 0;
+    list-style: none;
+    border-bottom-color: #ced4da;
+}
+.vendor-admin-card .each-upload {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.vendor-admin-card .show-file i.far {
+    margin-right: 0;
+}
+.vendor-admin-card .show-file a:not(.text-danger) {
+    width: calc(100% - 30px);
+    padding-left: 10px;
+    height: 21px;
+    overflow: hidden;
+}
+.vendor-admin-card .show-file .text-danger {
+    padding-left: 0;
+}
+.vendor-create-page {
+    margin-top: 100px;
+}
+.vendor-create-page .banner-page-section {
+    padding-left: 0;
+    padding-right: 0;
+}
+.banner-update.vendor-create-page .page-title {
+    margin-top: 5px;
+}
+.vendor-create-page .bootstrap-select {
+    border-radius: 0;
+    border: 2px solid #ced4da;
+    box-shadow: 1px 1px 6px #ccc !important;
+}
+.paypal-page .instruction-steps .instruction-list li {
+    display: inline-block;
+}
+.paypal-page .instruction-steps .instruction-list li .number {
+    position: absolute;
+    left: 0;
+}
+@media screen and (min-width: 992px){
+.payment-card .instruction-steps {
+    max-width: 400px;
+}
+.payment-card .settings-form-section {
+    max-width: calc(100% - 400px);
+    width: 100%;
+    flex: 0 0 100%;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 812px){
+.payment-card .col-form-label {
+    font-size: 13px;
+}
+}
+@media screen and (min-width: 768px){
+.settings-form-section {
+    padding-left: 30px;
+}
+.instruction-steps {
+    padding-right: 30px;
+    border-right: 2px solid #336ed1;
+}
+.vendor-create-page #contract_div.doc-group.col-md-12 {
+    max-width: 50%;
+}
+.datepicker.dropdown-menu {
+    z-index: 9999 !important;
+}
+}
+@media screen and (max-width: 991px){
+.admin-about .ff_fileupload_wrap .ff_fileupload_dropzone_wrap::after {
+    width: 100%;
+    text-align: center;
+}
+.admin-about .ff_fileupload_wrap .ff_fileupload_dropzone::after {
+    padding: .5rem .5rem;
+}
+}
+@media screen and (max-width: 767px){
+.settings-page .card-body {
+    padding: .75rem;
+}
+.common-logo-update {
+    justify-content: center;
+}
+.admin-about #homepage-testimonial .image-single{
+    text-align: center;
+}
+.settings-page .form-9-label label.error, 
+.settings-page .form-9-label label.is-invalid {
+    top: 250px;
+}
+.payment-create.settings-page .card-body {
+    padding: 2rem 1.5rem 1.5rem;
+}
+.paypal-page .card-body {
+    padding: 1.5rem 1.5rem 0;
+}
+}
+@media screen and (max-width: 575px){
+.settings-page.paypal-page {
+    padding: 0 12px;
+    max-width: 580px !important;
+}
+}
+@media screen and (max-width: 414px){
+.settings-page {
+    padding: 0 12px;
+    max-width: 580px !important;
+}
+.banner-update .page-title-box .page-title {
+    font-size: 20px;
+}
+.paypal-page .card-body {
+    padding: .75rem .75rem 0;
+}
+}

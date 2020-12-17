@@ -1,0 +1,42 @@
+.tenant-create button.btn-secondary {
+    background-color: #336ed1;
+    border-radius: 0;
+    border-color: #336ed1;
+    font-size: 20px;
+    padding: .25rem 1.5rem;
+    transition: all .3s;
+}
+.tenant-create button.btn-secondary:active, 
+.tenant-create button.btn-secondary:hover, 
+.tenant-create button.btn-secondary:focus {
+    outline: 0 none;
+    box-shadow: unset;
+    background-color: #4938d7;
+    border-color: #3f2ed4;
+}
+.tenant-create .tab-content>.tab-pane{
+    display: block;
+}
+.tenant-create .application-card .card-body {
+    padding-bottom: 1.5rem;
+}
+.tenant-create .tenant-title {
+    margin-top: 0;
+}
+.tenant-create .tab-pane .subsection:first-of-type {
+    margin-top: 10px;
+}
+.tenant-create .tab-pane .bootstrap-select>.dropdown-toggle {
+    border: medium none;
+}
+.tenant-create .tab-pane .subsection:last-child {
+    margin-bottom: 0 !important;
+}
+.tenant-create .application-card {
+    margin-bottom: 33px;
+}
+@media screen and (max-width: 991px){
+.property-create-page {
+    margin-top: 0px;
+}    
+}

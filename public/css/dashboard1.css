@@ -1,0 +1,232 @@
+/*Global CSS End*/
+/*Dashboard1 Design Start*/
+.content-page{
+    background-color: #fff;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 72px !important;
+    padding-top: 0px !important;
+}
+.content-page .container-fluid{
+	padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 100% !important;
+}
+.dashboard-row-first .row{
+    max-width: 1320px;
+    background-image: url(../images/home-bg.jpg);
+    background-size: 320px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: center bottom;
+    padding: 0 45px;
+}
+.topnav {
+    display: none;
+}
+.dashboard-row-first{
+	background-image: url(../images/dashboard-bottom.jpg);
+	background-position: center bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+    padding-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.dashboard-row-first::after{
+	background-image: url(../images/line.png);
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    z-index: 0;
+    height: 60%;
+    width: 100%;
+    background-size: 95%;
+    background-position: center 140%;
+    max-width: 940px;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;    
+}
+.dashboard-height{
+	min-height: 630px;
+	display: flex;
+    padding: 0;
+}
+.dashboard-row-first .card-box{
+	box-shadow: unset;
+	font-weight: 400;
+    padding: 1rem;
+	list-style: none;
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+    align-items: center;
+    align-self: flex-end;
+    z-index: 1;
+}
+.dashboard-row-first .card-box.card-box-top{
+	align-self: flex-start;
+}
+.step-title{
+	font-size: 24px;
+    line-height: 50px;
+	color: #336ed1;
+	font-weight: 700;
+}
+.card-box span{
+	font-size: 16px;
+	line-height: 26px;
+	color: #222;
+}
+.dashboard-row-first .card-box li{
+    text-align: center;
+    width: 100%;
+}
+.card-box li a {
+    background-color: #336ed1;
+    padding: 10px 24px;
+    max-width: 220px;
+    width: 100%;
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 20px;
+	color: #fff;
+}
+.dashboard-row-first .card-box li img {
+    margin-bottom: 10px;
+}
+.dashboard-row-first .card-box.card-box-top li img {
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+.card-box li a:hover,.card-box li a:active,.card-box li a:focus {
+    opacity: 0.8;
+}
+/*.dashboard-height {
+    margin-top: 60px;
+}*/
+@media screen and (min-width: 1250px){
+.dashboard-height{
+    min-height: 580px;
+}
+.dashboard-row-first::after {
+    background-size: 100%;
+    background-position: center 180%;
+}
+.dashboard-row-first .card-box.card-box-top li img {
+    margin-top: 5px;
+}
+.card-box li a {
+    margin-top: 5px;
+}
+.dashboard-row-first .card-box li img {
+    margin-bottom: 0px;
+    max-width: 80px;
+}
+.dashboard-row-first .card-box{
+    margin-bottom: 10px;
+}
+.dashboard-row-first .dashboard-height:nth-child(2) ul li img {
+    margin-top: 15px;
+}
+}
+@media screen and (max-width: 1250px){
+.dashboard-row-first .row {
+    background-size: 300px;
+}
+.step-title {
+    font-size: 24px;
+    line-height: 30px;
+}
+.card-box span {
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 1200px){
+.dashboard-row-first::after{
+    background-size: 100%;
+}
+}
+@media screen and (max-width: 1170px){
+.card-box span {
+    min-height: 70px;
+    display: inline-block;
+}
+.dashboard-row-first::after{
+    display: none;
+}
+}
+@media screen and (max-width: 1040px){
+.step-title {
+    font-size: 22px;
+}
+}
+@media screen and (max-width: 1028px){
+.dashboard-row-first{
+    padding-bottom: 60px !important;
+}
+.content-page {
+    padding-bottom: 0px !important;
+}
+body[data-sidebar-size=condensed]:not([data-layout=compact]){
+    min-height: auto;
+}
+}
+@media screen and (max-width: 1024px){
+.dashboard-height {
+    min-height: 740px;
+}
+}
+@media screen and (max-width: 991px){
+.dashboard-row-first {
+    padding-bottom: 0px !important;
+}
+/*.dashboard-height {
+    margin-top: 0px;
+}*/
+}
+@media screen and (max-width: 963px){
+.step-title {
+    min-height: 62px;
+}
+}
+@media screen and (max-width: 821px){
+.card-box span {
+    min-height: 106px;
+}
+}
+@media screen and (max-width: 767px){
+.dashboard-height,.step-title,.card-box span {
+    min-height: auto;
+}
+.dashboard-row-first .row {
+    background-size: 240px;
+    padding-bottom: 180px;
+    background-position: center 99%;
+}
+.dashboard-row-first {
+    margin-bottom: 16px;
+}
+.dashboard-row-first .card-box.card-box-top{
+    position: relative;
+    padding-top: 110px;
+}
+.dashboard-row-first .card-box.card-box-top li img{
+    position: absolute;
+    top: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+}
+@media screen and (max-width: 575px){
+.dashboard-row-first {
+    margin-bottom: 0px;
+}
+}
+/*Dashboard1 Design Start*/
+

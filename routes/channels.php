@@ -1,6 +1,9 @@
 <?php
 
+Use App\User;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Broadcast;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +16,10 @@ use Illuminate\Support\Facades\Broadcast;
 |
 */
 
-Broadcast::channel('App.User.{id}', function ($user, $id) {
-    return (int) $user->id === (int) $id;
+
+Broadcast::channel('message.{id}', function ($user,$id) {
+    if ($user->canJoinRoom($id)) {
+        return ['id' => $user->id, 'name' => $user->name];
+    }
 });
+ 

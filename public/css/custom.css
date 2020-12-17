@@ -1,0 +1,451 @@
+.kt-link--danger{
+	color: red !important;
+}
+div#product_img img {
+    width: 394px !important;
+}
+label.custom-file-label.selected
+{
+	overflow: hidden;
+    line-height: 2;
+}
+/*Global CSS Start*/
+body{
+	font-family: 'Muli', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #000;
+	font-family: 'Muli', sans-serif;
+}
+p{
+	color: #666;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+}
+p.lead{
+	color: #fff;
+}
+.auth-fluid .logo img {
+    height: auto;
+    max-width: 170px;
+}
+/*Global CSS End*/
+/*Register/Login Page CSS Start*/
+.auth-fluid-pages .auth-fluid {
+    background-image: linear-gradient(to right, #346dd1, #843fce 90%);
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 73px;
+    min-height: calc(100vh - 187px);
+}
+.auth-fluid .auth-fluid-right {
+    background-color: transparent; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    padding: 2rem 3rem;
+    padding-left: 0;
+}
+.card-body h2,.card-body p{
+	width: 100%;
+}
+.form-group.verify-group {
+    max-width: 100%;
+    margin-bottom: 0;
+}
+.row.verify-row {
+    flex-direction: column-reverse;
+}
+button#verification_send_click {
+    color: #98a6ad!important;
+    background-color: transparent;
+    border: medium none;
+    padding: 0;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+button#verification_send_click:focus,
+button#verification_send_click:hover,
+button#verification_send_click:active {
+    outline: 0 none !important;
+    box-shadow: unset !important;
+}
+.verify-step {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.verify-step .inputs.form-control {
+    max-width: 50px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: .3rem .3rem;
+}
+form .verify-group label.error, form .verify-group label.is-invalid {
+    bottom: 0;
+}
+form .form-control,form .input-group-text{
+	border-radius: 0;
+	padding: .3rem .9rem;
+    border: 2px solid #ced4da;
+    box-shadow: 1px 1px 6px #ccc !important;
+}
+form .form-control:hover,form .form-control:active,form .form-control:focus,
+form .input-group-text:hover,form .input-group-text:active,form .input-group-text:focus{
+    box-shadow: 1px 1px 6px #ccc !important;
+}
+form .bootstrap-select{
+	border: 2px solid #ced4da;
+}
+form .form-control,form .input-group-text{
+	height: calc(2em + .9rem + 2px);
+}
+form .btn-primary {
+    background-color: #336ed1;
+    border: 2px solid #336ed1;
+    font-size: 20px;
+    border-radius: 0;
+    padding: .5rem 1rem;
+    width: auto;
+    margin: 0 auto;
+    min-width: 120px;
+}
+form .btn-primary:hover,
+form .btn-primary:active,
+form .btn-primary:focus {
+    opacity: 0.9;
+    background-color: #336ed1;
+    border: 2px solid #336ed1;
+}
+.footer .text-muted a{
+	color: #336ed1 !important;
+}
+.auth-fluid .auth-fluid-form-box {
+    max-width: 600px;
+    margin: 30px;
+    margin-left: 0;
+    padding-top: 1rem;
+    padding: 1rem;
+}
+.auth-fluid-right h3.logo-title {
+    font-size: 2.75rem;
+    color: #fff;
+    margin-top: 5px;
+}
+form .row{
+	justify-content: space-between;
+}
+form .form-group {
+    width: 100%;
+    max-width: 49%;
+    position: relative;
+    padding-bottom: 20px;
+}
+form .form-group span.required {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+}
+form .form-group.full-width-group {
+    max-width: 99%;
+}
+.error, label.is-invalid, span.required {
+    color: rgb(248, 98, 98);
+}
+form label.error, form label.is-invalid {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    bottom: -10px;
+}
+form .form-group.mb-0.text-center {
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+.auth-fluid-right .logo span.logo-lg{
+	display: block !important;
+}
+.auth-fluid-right .logo{
+	display: inline-block !important;
+}
+form .form-group .bootstrap-select .dropdown-toggle:after {
+    font-size: 28px;
+    line-height: 26px;
+    margin-right: -10px;
+    margin-top: -2px !important;
+}
+.form-group.mb-0.text-center.forgot-btn {
+    max-width: 100%;
+}
+.form-group.forgot-btn button.btn-block {
+    width: auto;
+    margin: 0 auto;
+   padding: .5rem 1rem;
+}
+h2.main-title {
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+h3.title-sm {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.right-steps {
+    text-align: left;
+    max-width: 320px;
+}.steps h4, .steps p {
+    color: #fff;
+}
+.steps svg{
+	height: 64px !important;
+	width: 64px !important;
+}
+.form-group .custom-checkbox .is-invalid {
+    bottom: -30px;
+}
+.steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-steps {
+    max-width: 90px;
+    width: 100%;
+    text-align: left;
+    margin-right: 30px;
+}
+.left-steps i {
+    font-size: 90px;
+}
+.auth-fluid .auth-fluid-form-box .card-body{
+	padding-bottom: 70px;
+	position: relative;
+}
+.auth-fluid .auth-fluid-form-box .forgot-password-section{
+	height: 100%;
+}
+.auth-fluid .auth-fluid-form-box .forgot-password-section .card-body{
+	padding-bottom: 1.5rem;
+}
+.auth-fluid{
+	align-items: center;
+}
+.reset-btn{
+	text-align: center;
+}
+.full-width-group .col-form-label {
+    padding: 0;
+    margin-bottom: .5rem;
+}
+.forgot-password-section .reset-btn {
+    padding-bottom: 0;
+}
+p.text-small.Condition-text {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    color: #fff;
+    right: 0;
+}
+/*Register/Login Page CSS End*/
+@media screen and (min-width: 1440px){
+p.text-small.Condition-text {
+    left: 20%;
+}
+}
+@media screen and (min-width: 2000px){
+p.text-small.Condition-text {
+    left: 23%;
+
+}
+}
+@media screen and (min-width: 4000px){
+p.text-small.Condition-text {
+    left: 37%;
+}
+}
+@media screen and (min-width: 1300px){
+.auth-fluid-pages .auth-fluid .auth-fluid-right {
+    max-width: 600px;
+    padding: 2rem 3rem;
+    padding-left: 0;
+}
+.auth-fluid-pages .auth-fluid .auth-fluid-form-box {
+    max-width: 600px;
+}
+}
+@media screen and (max-width: 1200px){
+body[data-sidebar-size=condensed]:not([data-layout=compact]) {
+    min-height: auto;
+}
+}
+@media screen and (max-width: 1200px){
+.auth-fluid .auth-fluid-form-box {
+    margin: 20px;
+}
+}
+@media screen and (max-width: 1024px){
+.auth-fluid-pages .auth-fluid {
+    flex-direction: column-reverse;
+    display: flex;
+    flex-wrap: wrap;
+}
+.auth-fluid .auth-fluid-form-box {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-bottom: 60px !important;
+}
+.auth-fluid .auth-fluid-right {
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    max-width: 90%;
+}
+p.text-small.Condition-text {
+    left: 50px;
+}
+}
+@media screen and (max-width: 991px){
+.auth-fluid .auth-fluid-right {
+    margin: 0 auto;
+    padding: 2rem 3rem;
+}
+.auth-fluid .auth-fluid-form-box {
+    max-width: 95%;
+    margin: 30px;
+    margin: 0 auto 60px !important;
+    
+}
+.auth-fluid .auth-fluid-form-box {
+    min-height: auto;
+}
+p.text-small.Condition-text {
+    left: 20px;
+}
+}
+@media screen and (max-width: 767px){
+.auth-fluid .auth-fluid-form-box,.auth-fluid .auth-fluid-right {
+    padding: 1rem;
+}
+.auth-fluid .auth-fluid-form-box .card-body{
+	padding: 0rem;
+	padding-bottom: 70px;
+}
+.auth-fluid .auth-fluid-form-box.verification-page .card-body {
+    padding-bottom: 30px;
+}
+form .form-group {
+    max-width: 96%;
+}
+.title-top {
+    max-width: 96%;
+    width: 100%;
+    margin: 0 auto;
+}
+form .row {
+    justify-content: center;
+}
+.auth-fluid-pages .auth-fluid {
+    padding-bottom: 30px;
+}
+.auth-fluid .auth-fluid-form-box {
+    margin: 0 auto 30px !important;
+}
+.verification-page footer.footer.footer-alt p.text-muted {
+    margin-bottom: 0;
+}
+.verification-page footer.footer.footer-alt {
+    position: relative;
+    padding-bottom: 0;
+}
+.form-inner {
+    margin: 30px auto;
+}
+.banner-steps p {
+    font-size: 16px;
+}
+.inner-steps {
+    margin-top: 30px;
+}
+.registration-section p {
+    font-size: 16px;
+}
+.content-goal p {
+    font-size: 16px;
+}
+.content-goal {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+}
+@media screen and (max-width: 575px){
+.about-us, .registration-section, .footer-section, .content-goal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.single-course {
+    max-width: 100%;
+}
+}
+
+@media screen and (max-width: 480px){
+.left-steps i {
+    font-size: 50px;
+}
+.left-steps {
+    margin-right: 0px;
+}
+.auth-fluid .auth-fluid-right{
+	padding: 1rem 0;
+}
+.auth-fluid .auth-fluid-right .col-12{
+	padding: 0;
+}
+h2.main-title {
+    font-size: 21px;
+}
+h3.title-sm {
+    font-size: 16px;
+}
+.form-group.forgot-btn button.btn-block {
+    padding: .5rem 1rem;
+    font-size: 18px;
+}
+.radio-custom {
+    font-size: 12px;
+}
+.course-price-label {
+    font-size: 16px;
+}
+.footer-section {
+    flex-wrap: wrap;
+}
+.footer-content {
+    padding-left: 0px;    margin-top: 16px;
+}
+.footer-links {
+    margin-top: 20px;
+}
+}
+@media screen and (max-width: 360px){
+.auth-fluid-pages .auth-fluid {
+    padding-bottom: 40px;
+}
+p.text-small.Condition-text {
+    left: 15px;
+}
+}
+@media screen and (max-width: 320px){
+.verify-step .inputs.form-control {
+    margin-right: 2px;
+}
+}
+/*Register/Login Page CSS Start*/

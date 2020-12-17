@@ -1,0 +1,122 @@
+.chat-avatar .avatar-title {
+    height: 36px;
+    width: 36px;
+}
+.chat-content .avatar-title {
+    color: #fff !important;
+    background-image: linear-gradient(to right, #843fce, #346dd1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.chat-content .odd .avatar-title {
+    color: #fff !important;
+    background-image: linear-gradient(to right, #346dd1, #843fce);
+}
+.chat-modal .form-group.doc-group {
+    padding: 0;
+}
+.chat-modal .form-group.doc-group input,
+.chat-modal .form-group.doc-group input.focus-visible {
+    width: 100%;
+    outline: 0 none !important;
+    box-shadow: unset;
+    padding: .25rem .5rem;
+    border: 2px solid #ccc;
+    border-radius: 0;
+    color: #6c757d;
+}
+.chat-content .col-lg-8 .media {
+    align-items: center;
+}
+.conversation-list .ctext-wrap i {
+    font-size: 15px;
+}
+.chat-content .card-body.border-bottom {
+    border-bottom: 2px solid #e5e8eb!important;
+    max-height: 75px;
+}
+.chat-content .card {
+    height: calc(100% - 25px);
+}
+.chat-content .conversation-list .simplebar-content .chat-avatar {
+    width: 86px;
+    text-align: left;
+}
+.chat-content .conversation-list .simplebar-content .chat-avatar {
+    width: 86px;
+    text-align: left;
+}
+.chat-content .conversation-list .simplebar-content .odd .chat-avatar {
+    text-align: right;
+}
+.chat-content .odd .avatar-title{
+    margin-left: auto;
+}
+.chat-content .conversation-list .chat-avatar i {
+    line-height: 16px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.conversation-actions .dropdown-menu .dropdown-item {
+    font-size: 13px;
+    padding: .25rem 1.2rem;
+}
+.btn-success.chat-send:hover,
+.btn-success.chat-send:active,
+.btn-success.chat-send:focus{
+    box-shadow: unset !important;
+    outline: 0 none !important;
+}
+@media screen and (min-width: 1200px){
+.conversation-list {
+    min-height: 175px;
+    max-height: calc(100vh - 590px) !important;
+}
+}
+@media screen and (min-width: 1360px){
+.conversation-list {
+    min-height: 175px;
+    max-height: calc(100vh - 480px) !important;
+}
+}
+@media screen and (min-width: 1200px){
+.chat-content .container-fluid{
+    padding: 0 60px;
+    max-width: 1320px !important;
+}
+}
+@media screen and (min-width: 991px){
+.conversation-list .simplebar-content {
+    min-height: calc(100vh - 480px);
+}
+}
+@media screen and (max-width: 767px){
+.conversation-list ~ .row{
+    width: 100%;
+}
+.chat-content .card-body {
+    padding: 1rem .5rem;
+}
+.chat-content div#chat-section .bg-light.p-3 {
+    padding: .5rem !important;
+}
+}
+@media screen and (max-width: 575px){
+.col-sm-auto {
+    position: absolute;
+    right: 14px;
+    text-align: right;
+    max-width: 40px;
+    padding: 0;
+}
+.chat-content div#chat-section .bg-light.p-3 {
+    padding: .5rem !important;
+    position: relative;
+}
+.chat-content div#chat-section .bg-light.p-3 .col.mb-2 {
+    margin-bottom: 0 !important;
+}
+.chat-content div#chat-section .bg-light.p-3 .col.mb-2 .form-control {
+    padding-right: 50px;
+}
+}

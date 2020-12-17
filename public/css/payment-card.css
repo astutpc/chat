@@ -1,0 +1,139 @@
+/*Property Leads CSS Start*/
+.invitation-section .leads-table-card {
+    max-width: 100%;
+}
+.form-group.icon-left i.mdi-calendar-range {
+    position: absolute;
+    bottom: 7px;
+    left: 20px;
+}
+.form-group.icon-left .form-control {
+    padding-left: 25px;
+}
+.form-group.cvv-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+}
+.form-group.cvv-group .cvv-img {
+    width: 70px;
+}
+.cvv-group .col-form-label.cvv-label{
+    font-size: 12px !important;
+    padding-bottom: 0;
+    padding-left: .25rem;
+}
+.add-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-card .btn {
+    font-size: 18px;
+    border: 2px solid #336ed1;
+    border-radius: 0;
+    min-width: 120px;
+    color: #336ed1;
+    padding: .25rem .75rem;
+}
+.add-card .btn:hover {
+    outline: 0 none !important;
+    box-shadow: unset !important;
+    color: #fff;
+    background-color: #336ed1;
+}
+.saved-card-detail {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f3f3f7;
+    padding: .5rem;
+    margin-top: 1rem;
+    position: relative;
+    padding-left: 1.5rem;
+    min-height: 113px;
+}
+.saved-card-detail .card-type-logo {
+    max-width: 80px;
+    padding-left: .5rem;
+}
+.card-info {
+    width: calc(100% - 95px);
+    padding-left: .75rem;
+}
+.card-info * {
+    margin-bottom: .25rem;
+}
+.saved-card-detail span.mdi-delete {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 20px;
+    padding-left: 1.5rem;
+    cursor: pointer;
+}
+.saved-cards-body .form-group {
+    margin-bottom: 0;
+}
+.save-each .custom-checkbox {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+p.default-method {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.saved-card-detail span.mdi-delete::after {
+    content: "Remove this card";
+    position: absolute;
+    width: 100%;
+    font-size: 12px;
+    min-width: 100px;
+    top: -10px;
+    right: 0;
+    transition: all .3s ease-in-out;
+    display: none;
+}
+.saved-card-detail span.mdi-delete:hover::after {
+    display: block;
+}
+.saved-card-detail {
+    border: 2px solid #f3f3f7;
+}
+.active.save-each .saved-card-detail,.saved-card-detail.active {
+    border: 2px solid #336ed1;
+}
+.save-each .custom-control-label{
+    cursor: pointer;
+}
+/*Property Leads CSS End*/
+/*Responsive Design CSS Start*/
+@media screen and (max-width: 575px){ 
+.form-group.cvv-group {
+    justify-content: flex-start;
+}
+}
+@media screen and (max-width: 375px){ 
+.add-card .invitee-title {
+    font-size: 20px;
+}
+.add-card .btn {
+    font-size: 16px;
+    padding: .25rem .25rem;
+}
+.saved-card-detail .card-type-logo {
+    max-width: 50px;
+}
+.card-info {
+    width: calc(100% - 60px);
+    padding-left: 0.5rem;
+}
+.card-info * {
+    font-size: 12px;
+}
+}
+/*Responsive Design CSS End
