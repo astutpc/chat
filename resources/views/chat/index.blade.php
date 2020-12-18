@@ -147,17 +147,20 @@
 <script src="//{{ Request::getHost() }}:{{env('LARAVEL_ECHO_PORT')}}/socket.io/socket.io.js"></script>
 <script src="{{ url('/js/app.js') }}" type="text/javascript"></script>
 <script type="text/javascript">
-       
-       window.Echo.join('message.{{Auth::user()->id}}').
+
+       window.Echo.join('message').
             here((users) => {
-                console.log(users);
+                alert("shdjsdhj");
             })
             .joining((user) => {
-                console.log(user.name);
+                alert("shdjsdhj");
             })
             .leaving((user) => {
-            console.log(user.name);
-        });
+                alert("shdjsdhj");
+        }).listen('message', e => {
+          console.log("jshjshdj")
+      });
+    
     </script>
 <script>
     
@@ -428,7 +431,7 @@
       //  alert("jik");
         var message_text = $('#message_text').val();
         $('#message_text').val('');
-        receiver_id =  "{{Auth::user()->id}}";
+        receiver_id =  '2';
         if ($.trim(message_text) !='')
         {
             $.ajax({

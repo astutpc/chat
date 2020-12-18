@@ -28,7 +28,9 @@ Class ChatsController extends Controller
   public function index()
   {
     $data = User::find(Auth::user()->id);
-    broadcast(new SendMessage($data))->toOthers();
+    if(Auth::check()) {
+      broadcast(new SendMessage($data))->toOthers();
+    }
     $userList = User::get()->pluck('name','id')->toArray();
     return view('chat.index',compact('userList'));
   }
@@ -180,26 +182,28 @@ Class ChatsController extends Controller
             return response()->json(['success' => false, 'type' => 'validation-error', "error" => $validator->errors()]);
         }
         $user_id = $attributes['user_id'];
-        $updateLastMessage = NotificationUser::where(['from_id'=>Auth::user()->id,'to_id'=>$user_id])
-        ->orWhere(function($query) use($user_id) {
-            $query->where(['to_id'=>Auth::user()->id,'from_id'=>$user_id]);
-        })->update(['is_last' => '0']);
+        // $updateLastMessage = Message::where(['from_id'=>Auth::user()->id,'to_id'=>$user_id])
+        // ->orWhere(function($query) use($user_id) {
+        //     $query->where(['to_id'=>Auth::user()->id,'from_id'=>$user_id]);
+        // })->update(['is_last' => '0']);
 
         $message = new Message();
         $message->from_id = Auth::user()->id;
         $message->to_id = $attributes['user_id'];
         $message->message = $attributes['message_text'];
+        $message->last_message = $attributes['message_text'];
         $message->is_read = '0';
         $message->is_last = '1';
         $message->save();
-        Message::where(['from_id'=>$attributes['user_id'],'to_id'=>Auth::user()->id])->update(['is_read' => '1']);
+        $data =  User::find($user_id);
+       // Message::where(['from_id'=>$attributes['user_id'],'to_id'=>Auth::user()->id])->update(['is_read' => '1']);
         // $logotext = logoText(Auth::user()->firstname).logoText(Auth::user()->lastname);
         // $heading_message_text = Auth::user()->firstname.' '.logoText(Auth::user()->lastname);
         // $chat_date = setChatDate($message->created_at);
         // $last_short_message = limitString($message->message, 10);
         // $data = ['from' => $message->from_id, 'to' => $message->to_id,'last_message'=>$message->message,'message_id'=>$message->id,'logo_text'=>$logotext,'heading_message_text'=>$heading_message_text,'chat_date'=>$chat_date,'last_short_message'=>$last_short_message]; // sending from and to user id when pressed enter
         //$pusher->trigger('my-channel', 'my-event', $data);
-       // broadcast(new SendMessage($data))->toOthers();
+        broadcast(new SendMessage($data))->toOthers();
         return response()->json(['success'=>true,'message'=>'message has been sent']) ;
    }
    

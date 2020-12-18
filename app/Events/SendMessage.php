@@ -14,10 +14,9 @@ use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcastNow;
 
-class SendMessage implements ShouldBroadcast
+class SendMessage implements ShouldBroadcastNow 
 {
-    use InteractsWithSockets, SerializesModels;
-
+    use Dispatchable, InteractsWithSockets, SerializesModels;
     
     public $user;
     /**
@@ -37,9 +36,15 @@ class SendMessage implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return new PresenceChannel('message.'.$this->user->id);
+        return new PresenceChannel('message'.$this->user->id);
     }
-
+    public function broadcastWith () {
+        return [
+            'id'       => $this->user->id,
+            'name'     => $this->user->name,
+            
+        ];
+    }
     /**
      * The event's broadcast name.
      *

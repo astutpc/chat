@@ -22,14 +22,6 @@
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
-    @if(Route::currentRouteName() != "chat")
-    $('.selectpicker').selectpicker().change(function(){
-        $(this).valid()
-    });
-    @endif
-    $(document).ready(function() {  
-        
-        
-    });
+   
 </script>
 @yield('custom-script')
