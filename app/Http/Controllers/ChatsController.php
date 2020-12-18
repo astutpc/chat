@@ -181,7 +181,7 @@ Class ChatsController extends Controller
         {
             return response()->json(['success' => false, 'type' => 'validation-error', "error" => $validator->errors()]);
         }
-        $user_id = $attributes['user_id'];
+        $user_id = Auth::user()->id;
         // $updateLastMessage = Message::where(['from_id'=>Auth::user()->id,'to_id'=>$user_id])
         // ->orWhere(function($query) use($user_id) {
         //     $query->where(['to_id'=>Auth::user()->id,'from_id'=>$user_id]);

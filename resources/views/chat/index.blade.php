@@ -148,17 +148,17 @@
 <script src="{{ url('/js/app.js') }}" type="text/javascript"></script>
 <script type="text/javascript">
 
-       window.Echo.join('message').
+       window.Echo.join('message.{{Auth::user()->id}}').
             here((users) => {
-                alert("shdjsdhj");
+                alert("Hello");
             })
             .joining((user) => {
-                alert("shdjsdhj");
+                alert("bhai join");
             })
             .leaving((user) => {
-                alert("shdjsdhj");
-        }).listen('message', e => {
-          console.log("jshjshdj")
+                alert("bhai leave");
+        }).listen('.Chat', e => {
+          alert("ss");
       });
     
     </script>

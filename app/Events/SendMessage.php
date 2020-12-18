@@ -16,7 +16,7 @@ use Illuminate\Contracts\Broadcasting\ShouldBroadcastNow;
 
 class SendMessage implements ShouldBroadcastNow 
 {
-    use Dispatchable, InteractsWithSockets, SerializesModels;
+    use SerializesModels;
     
     public $user;
     /**
@@ -50,10 +50,10 @@ class SendMessage implements ShouldBroadcastNow
      *
      * @return string
      */
-    // public function broadcastAs()
-    // {
-    //     return 'UserEvent';
-    // }
+    public function broadcastAs()
+    {
+        return 'Chat';
+    }
     // /**
     //  * The event's broadcast name.
     //  *

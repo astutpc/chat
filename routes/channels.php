@@ -17,8 +17,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Broadcast::channel('message,{id}', function ($user,$id) {
-    if ($user->canJoinRoom($id)) {
+Broadcast::channel('message.{id}', function ($user,$id) {
+    if (Auth::check()) {
         return ['id' => $user->id, 'name' => $user->name];
     }
 });

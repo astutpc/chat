@@ -1,6 +1,6 @@
 import Echo from 'laravel-echo';
 
-require('./bootstrap');
+//require('./bootstrap');
 
 window.io = require('socket.io-client');
 
