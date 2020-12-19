@@ -147,25 +147,25 @@
 <script src="//{{ Request::getHost() }}:{{env('LARAVEL_ECHO_PORT')}}/socket.io/socket.io.js"></script>
 <script src="{{ url('/js/app.js') }}" type="text/javascript"></script>
 <script type="text/javascript">
-
-       window.Echo.join('message.{{Auth::user()->id}}').
-            here((users) => {
-                alert("Hello");
-            })
-            .joining((user) => {
-                alert("bhai join");
-            })
-            .leaving((user) => {
-                alert("bhai leave");
-        }).listen('.Chat', e => {
-          alert("ss");
-      });
     
+       
+      
     </script>
 <script>
     
     $(document).ready(function() {
-        
+        window.Echo.join('message.{{Auth::user()->id}}').
+            here((users) => {
+                alert("Hello");
+            })
+            .joining((user) => {
+                alert("join");
+            })
+            .leaving((user) => {
+                alert("leave");
+        }).listen('SendMessage', (e) => {
+          alert("ss");
+      });
         $('#user_name').change(function() {
             var user_id = $(this).val();
             var name = $("#user_name option:selected").text();

@@ -172,6 +172,13 @@ Class ChatsController extends Controller
   public function sendMessage(Request $request)
   {
       $attributes = $request->all();
+      $user_id = Auth::user()->id;
+      $data =  User::find($user_id);
+      if(Auth::check()) {
+          broadcast(new SendMessage($data))->toOthers();
+      }
+      return response()->json(['success'=>true,'status' => 'success','message'=>'message has been sent'],200) ;
+      
         $validateArray = array(
               'user_id'=>'required',
               'message_text'=>'required'
@@ -203,7 +210,10 @@ Class ChatsController extends Controller
         // $last_short_message = limitString($message->message, 10);
         // $data = ['from' => $message->from_id, 'to' => $message->to_id,'last_message'=>$message->message,'message_id'=>$message->id,'logo_text'=>$logotext,'heading_message_text'=>$heading_message_text,'chat_date'=>$chat_date,'last_short_message'=>$last_short_message]; // sending from and to user id when pressed enter
         //$pusher->trigger('my-channel', 'my-event', $data);
-        broadcast(new SendMessage($data))->toOthers();
+        // broadcast(new SendMessage($data))->toOthers();
+        if(Auth::check()) {
+          broadcast(new SendMessage($data))->toOthers();
+        }
         return response()->json(['success'=>true,'message'=>'message has been sent']) ;
    }
    

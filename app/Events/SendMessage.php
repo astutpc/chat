@@ -16,7 +16,7 @@ use Illuminate\Contracts\Broadcasting\ShouldBroadcastNow;
 
 class SendMessage implements ShouldBroadcastNow 
 {
-    use SerializesModels;
+    use Dispatchable, InteractsWithSockets, SerializesModels;    
     
     public $user;
     /**
@@ -36,24 +36,15 @@ class SendMessage implements ShouldBroadcastNow
      */
     public function broadcastOn()
     {
-        return new PresenceChannel('message'.$this->user->id);
+        return new PresenceChannel('message.'.$this->user->id);
     }
-    public function broadcastWith () {
-        return [
-            'id'       => $this->user->id,
-            'name'     => $this->user->name,
-            
-        ];
-    }
+    
     /**
      * The event's broadcast name.
      *
      * @return string
      */
-    public function broadcastAs()
-    {
-        return 'Chat';
-    }
+    
     // /**
     //  * The event's broadcast name.
     //  *

@@ -44,14 +44,10 @@ return [
         'redis' => [
             'driver' => 'redis',
             'connection' => 'default',
-            'options' => [
-                'cluster' => 'eu',
-                'useTLS' => true
-            ],
         ],
 
         'log' => [
-            'driver' => 'log',
+            'driver' => 'log', 
         ],
 
         'null' => [
